@@ -8,3 +8,5 @@ We start from the latest research results in the solar wind prediction field, th
 #### Project Contributors
 * Andrea Giuseppe Di Francesco -- email: difrancesco.1836928@studenti.uniroma1.it
 * Massimo Coppotelli -- email: coppotelli.1705325@studenti.uniroma1.it
+
+collaborator
