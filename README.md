@@ -6,5 +6,6 @@ In this project, we aim to develop a CNN-LSTM architecture to perform a time ser
 We start from the latest research results in the solar wind prediction field, that considered so far the only solar wind speed. Then, it's in our interest to develop a framework for the solar wind density forecasting (anticipating it 2 days earlier). After the prediction, it would be interesting to implement methods that are able to assess the dangerousness of an incoming flux.
 
 #### Project Contributors
-* Andrea Giuseppe Di Francesco -- email: difrancesco.1836928@studenti.uniroma1.it
+* Andrea Giuseppe Di Francescoo -- email: difrancesco.1836928@studenti.uniroma1.it
 * Massimo Coppotelli -- email: coppotelli.1705325@studenti.uniroma1.it
+
