@@ -162,8 +162,8 @@ class ConvLSTM(nn.Module):
             layer_output = torch.stack(output_inner, dim=1)
             cur_layer_input = layer_output
 
-            layer_output_list.append(layer_output)
-            last_state_list.append([h, c])
+            layer_output_list.append(layer_output)  # We should take the last element of this. 
+            last_state_list.append([h, c])          # torch.equal(output[0][0][:,-1,:,:,:], output[1][0][0])
 
         if not self.return_all_layers:
             layer_output_list = layer_output_list[-1:]
