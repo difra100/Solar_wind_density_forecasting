@@ -1,6 +1,9 @@
 import torch.nn as nn
 import torch
+import torch.nn.functional as F
 
+from utils import *
+from init import *
 
 
 ''' This implementation is an unofficial implementation of the ConvLSTM of the paper https://arxiv.org/pdf/1506.04214.pdf.
@@ -144,7 +147,7 @@ class ConvLSTM(nn.Module):
             hidden_state = self._init_hidden(batch_size=b,
                                              image_size=(h, w))
 
-        layer_output_list = []
+        #layer_output_list = []
         last_state_list = []
 
         seq_len = input_tensor.size(1)
@@ -153,23 +156,23 @@ class ConvLSTM(nn.Module):
         for layer_idx in range(self.num_layers):
 
             h, c = hidden_state[layer_idx]
-            output_inner = []
+            #output_inner = []
             for t in range(seq_len):
                 h, c = self.cell_list[layer_idx](input_tensor=cur_layer_input[:, t, :, :, :],
                                                  cur_state=[h, c])
-                output_inner.append(h)
+                #output_inner.append(h)
 
-            layer_output = torch.stack(output_inner, dim=1)
-            cur_layer_input = layer_output
+            # layer_output = torch.stack(output_inner, dim=1)
+            # cur_layer_input = layer_output
 
-            layer_output_list.append(layer_output)  # We should take the last element of this. 
+            #layer_output_list.append(layer_output)  # We should take the last element of this. 
             last_state_list.append([h, c])          # torch.equal(output[0][0][:,-1,:,:,:], output[1][0][0])
 
         if not self.return_all_layers:
-            layer_output_list = layer_output_list[-1:]
+            #layer_output_list = layer_output_list[-1:]
             last_state_list = last_state_list[-1:]
 
-        return layer_output_list, last_state_list
+        return last_state_list[0][0]  # get the value
 
     def _init_hidden(self, batch_size, image_size):
         init_states = []
@@ -188,3 +191,59 @@ class ConvLSTM(nn.Module):
         if not isinstance(param, list):
             param = [param] * num_layers
         return param
+
+
+class PredictionModule(nn.Module):
+
+    def __init__(self):
+        super(PredictionModule, self).__init__()
+
+        self.conv1 = nn.Conv2d(convNet['firstConv'], convNet['secondConv'], kernel_size = convNet['kernel'], padding = 'same')
+        self.conv2 = nn.Conv2d(convNet['secondConv'], convNet['thirdConv'], kernel_size = convNet['kernel'], padding = 'same')
+        self.pool2d = nn.MaxPool2d(convNet['kernel'])
+        self.drop = nn.Dropout(convNet['drop'])
+        self.flatten = Flatten()        
+        self.FC1 = nn.Linear(18432, 1024)
+        self.FC2 = nn.Linear(1024, 2)
+
+
+    def forward(self, x):
+        x = self.drop(self.pool2d(F.relu(self.conv1(x))))
+        
+        x = self.drop(self.pool2d(F.relu(self.conv2(x))))
+        
+        x = self.flatten(x)
+        
+        x = F.relu(self.FC1(x))
+        
+        x = self.FC2(x)
+        
+        return x
+
+
+
+
+class Flatten(nn.Module):
+    def forward(self, x):
+        batch_size = x.shape[0]
+        return x.view(batch_size, -1)
+
+
+
+class HeliosNet(nn.Module):
+
+    def __init__(self, input_dim, hidden_dim, kernel_size, num_layers,
+                 batch_first=False, bias=True, return_all_layers=False):
+        super(HeliosNet, self).__init__()
+        self.ConvLSTM = ConvLSTM(input_dim, hidden_dim, kernel_size, num_layers,
+                                    batch_first=batch_first, bias=bias, return_all_layers=return_all_layers)
+
+        self.DensityPredictor = PredictionModule()
+
+    def forward(self, input):
+
+        encoded_input = self.ConvLSTM(input)
+        
+        decoded_input = self.DensityPredictor(encoded_input)
+
+        return decoded_input

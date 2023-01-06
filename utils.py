@@ -1,6 +1,12 @@
 import json
 import torch
+import torch.nn as nn
+from torchvision import transforms
+from torch.utils.data import DataLoader, Dataset
 import pandas as pd
+
+
+transform = transforms.Compose([transforms.ToTensor(), transforms.Grayscale(), transforms.Resize((224,224))])
 
 def save_data(dicti,name):
     ''' SAVE DATA into json format,
@@ -49,3 +55,20 @@ def get_history_images(prediction_time, H, D, resolution):
 
     
     return times_of_interest
+
+
+
+class DataSet(Dataset):
+
+    def __init__(self, dataset):
+        self.dataset = dataset
+
+    def __len__(self):
+        
+        return len(self.dataset)
+
+    def __getitem__(self, idx):
+
+        return self.dataset.iloc[idx, 0], self.dataset.iloc[idx, 1], self.dataset.iloc[idx, 2]
+
+    
