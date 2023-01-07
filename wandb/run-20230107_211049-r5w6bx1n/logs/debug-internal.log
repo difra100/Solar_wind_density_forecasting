@@ -1,0 +1,556 @@
+2023-01-07 21:10:49,247 INFO    StreamThr :21478 [internal.py:wandb_internal():87] W&B internal server running at pid: 21478, started at: 2023-01-07 21:10:49.246748
+2023-01-07 21:10:49,250 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: status
+2023-01-07 21:10:49,253 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: status
+2023-01-07 21:10:49,255 DEBUG   SenderThread:21478 [sender.py:send():303] send: header
+2023-01-07 21:10:49,255 INFO    WriterThread:21478 [datastore.py:open_for_write():75] open: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/run-r5w6bx1n.wandb
+2023-01-07 21:10:49,434 DEBUG   SenderThread:21478 [sender.py:send():303] send: run
+2023-01-07 21:10:49,438 INFO    SenderThread:21478 [sender.py:_maybe_setup_resume():593] checking resume status for small_sunbirds/A CNN-LSTM framework for the solar wind density forecasting/r5w6bx1n
+2023-01-07 21:10:50,787 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: check_version
+2023-01-07 21:10:50,789 INFO    SenderThread:21478 [dir_watcher.py:__init__():216] watching files in: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files
+2023-01-07 21:10:50,789 INFO    SenderThread:21478 [sender.py:_start_run_threads():928] run started: r5w6bx1n with start time 1673122249.2443
+2023-01-07 21:10:50,789 DEBUG   SenderThread:21478 [sender.py:send():303] send: summary
+2023-01-07 21:10:50,790 INFO    SenderThread:21478 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 21:10:50,790 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: check_version
+2023-01-07 21:10:51,261 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: run_start
+2023-01-07 21:10:51,263 DEBUG   HandlerThread:21478 [system_info.py:__init__():31] System info init
+2023-01-07 21:10:51,263 DEBUG   HandlerThread:21478 [system_info.py:__init__():46] System info init done
+2023-01-07 21:10:51,263 INFO    HandlerThread:21478 [system_monitor.py:start():150] Starting system monitor
+2023-01-07 21:10:51,264 INFO    SystemMonitor:21478 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-07 21:10:51,264 INFO    HandlerThread:21478 [system_monitor.py:probe():171] Collecting system info
+2023-01-07 21:10:51,264 INFO    SystemMonitor:21478 [interfaces.py:start():168] Started cpu
+2023-01-07 21:10:51,266 INFO    SystemMonitor:21478 [interfaces.py:start():168] Started disk
+2023-01-07 21:10:51,267 INFO    SystemMonitor:21478 [interfaces.py:start():168] Started memory
+2023-01-07 21:10:51,268 INFO    SystemMonitor:21478 [interfaces.py:start():168] Started network
+2023-01-07 21:10:51,300 DEBUG   HandlerThread:21478 [system_info.py:probe():195] Probing system
+2023-01-07 21:10:51,312 DEBUG   HandlerThread:21478 [system_info.py:_probe_git():180] Probing git
+2023-01-07 21:10:51,339 DEBUG   HandlerThread:21478 [system_info.py:_probe_git():188] Probing git done
+2023-01-07 21:10:51,340 DEBUG   HandlerThread:21478 [system_info.py:probe():241] Probing system done
+2023-01-07 21:10:51,340 DEBUG   HandlerThread:21478 [system_monitor.py:probe():180] {'os': 'Linux-5.15.0-56-generic-x86_64-with-glibc2.31', 'python': '3.9.15', 'heartbeatAt': '2023-01-07T20:10:51.300951', 'startedAt': '2023-01-07T20:10:49.228635', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/difra100/Solar_wind_density_forecasting.git', 'commit': 'b72f71d85965fecbdbcb4cf52823a0200092624a'}, 'email': 'difrancesco.1836928@studenti.uniroma1.it', 'root': '/home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting', 'host': 'peppe', 'username': 'peppe', 'executable': '/home/peppe/miniconda3/envs/my_env/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 1516.8525, 'min': 1400.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 1400.0, 'min': 1400.0, 'max': 3000.0}, {'current': 1618.99, 'min': 1400.0, 'max': 3000.0}, {'current': 1400.0, 'min': 1400.0, 'max': 3000.0}, {'current': 1400.0, 'min': 1400.0, 'max': 3000.0}, {'current': 1683.24, 'min': 1400.0, 'max': 3000.0}, {'current': 1400.0, 'min': 1400.0, 'max': 3000.0}, {'current': 1400.0, 'min': 1400.0, 'max': 3000.0}, {'current': 1400.0, 'min': 1400.0, 'max': 3000.0}, {'current': 1700.0, 'min': 1400.0, 'max': 3000.0}, {'current': 1400.0, 'min': 1400.0, 'max': 3000.0}, {'current': 1400.0, 'min': 1400.0, 'max': 3000.0}, {'current': 1782.31, 'min': 1400.0, 'max': 3000.0}], 'disk': {'total': 128.04759979248047, 'used': 97.58736419677734}, 'memory': {'total': 7.139835357666016}}
+2023-01-07 21:10:51,340 INFO    HandlerThread:21478 [system_monitor.py:probe():181] Finished collecting system info
+2023-01-07 21:10:51,340 INFO    HandlerThread:21478 [system_monitor.py:probe():184] Publishing system info
+2023-01-07 21:10:51,340 DEBUG   HandlerThread:21478 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-01-07 21:10:51,341 DEBUG   HandlerThread:21478 [system_info.py:_save_pip():67] Saving pip packages done
+2023-01-07 21:10:51,341 DEBUG   HandlerThread:21478 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-01-07 21:10:51,793 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_created():275] file/dir created: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/conda-environment.yaml
+2023-01-07 21:10:51,793 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_created():275] file/dir created: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/requirements.txt
+2023-01-07 21:10:51,793 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_created():275] file/dir created: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/wandb-summary.json
+2023-01-07 21:10:55,123 DEBUG   HandlerThread:21478 [system_info.py:_save_conda():86] Saving conda packages done
+2023-01-07 21:10:55,123 INFO    HandlerThread:21478 [system_monitor.py:probe():186] Finished publishing system info
+2023-01-07 21:10:55,198 DEBUG   SenderThread:21478 [sender.py:send():303] send: files
+2023-01-07 21:10:55,198 INFO    SenderThread:21478 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-01-07 21:10:55,216 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:10:55,217 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:10:55,727 DEBUG   SenderThread:21478 [sender.py:send():303] send: telemetry
+2023-01-07 21:10:55,728 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:10:55,728 DEBUG   SenderThread:21478 [sender.py:send():303] send: telemetry
+2023-01-07 21:10:55,728 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:10:55,728 WARNING SenderThread:21478 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 21:10:55,728 DEBUG   SenderThread:21478 [sender.py:send():303] send: config
+2023-01-07 21:10:55,795 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/conda-environment.yaml
+2023-01-07 21:10:55,795 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_created():275] file/dir created: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/wandb-metadata.json
+2023-01-07 21:10:55,795 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_created():275] file/dir created: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:10:56,463 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:10:56,463 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:10:56,464 INFO    HandlerThread:21478 [system_monitor.py:finish():160] Stopping system monitor
+2023-01-07 21:10:56,464 DEBUG   SystemMonitor:21478 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-07 21:10:56,465 INFO    HandlerThread:21478 [interfaces.py:finish():175] Joined cpu
+2023-01-07 21:10:56,465 DEBUG   SystemMonitor:21478 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-07 21:10:56,465 INFO    HandlerThread:21478 [interfaces.py:finish():175] Joined disk
+2023-01-07 21:10:56,465 DEBUG   SystemMonitor:21478 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-07 21:10:56,465 INFO    HandlerThread:21478 [interfaces.py:finish():175] Joined memory
+2023-01-07 21:10:56,466 INFO    HandlerThread:21478 [interfaces.py:finish():175] Joined network
+2023-01-07 21:10:56,466 DEBUG   SenderThread:21478 [sender.py:send():303] send: stats
+2023-01-07 21:10:56,483 INFO    Thread-16 :21478 [upload_job.py:push():143] Uploaded file /tmp/tmpdg3zw1h6wandb/2w0k6js1-wandb-metadata.json
+2023-01-07 21:10:57,796 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:11:10,746 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:11:10,746 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:11:19,937 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:11:19,937 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:11:19,977 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:11:19,978 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:11:20,205 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:11:20,205 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:11:20,210 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:11:20,210 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:11:20,489 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:11:20,489 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:11:20,698 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:11:20,699 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:11:20,809 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/config.yaml
+2023-01-07 21:11:20,939 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:11:20,940 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:11:20,949 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:11:20,949 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:11:21,810 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:11:21,840 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:11:21,841 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:11:21,889 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:11:21,889 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:11:21,889 WARNING SenderThread:21478 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 21:11:21,889 DEBUG   SenderThread:21478 [sender.py:send():303] send: config
+2023-01-07 21:11:22,321 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:11:22,321 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:11:23,811 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:11:26,749 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:11:26,749 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:11:42,643 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:11:42,643 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:11:52,830 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/config.yaml
+2023-01-07 21:11:58,033 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:11:58,034 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:12:13,678 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:12:13,679 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:12:29,736 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:12:29,737 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:12:39,672 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:12:39,672 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:12:39,713 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:12:39,713 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:12:45,417 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:12:45,418 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:12:50,294 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:12:50,294 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:12:50,301 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:12:50,301 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:12:53,178 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:12:53,179 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:12:53,225 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:12:53,226 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:13:01,273 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:13:01,274 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:13:04,337 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:13:04,338 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:13:04,363 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:13:04,363 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:13:10,013 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:13:10,014 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:13:10,057 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:13:10,057 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:13:17,177 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:13:17,177 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:13:25,317 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:13:25,318 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:13:25,361 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:13:25,361 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:13:32,545 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:13:32,546 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:13:38,820 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:13:38,820 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:13:38,865 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:13:38,866 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:13:41,573 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:13:41,573 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:13:41,577 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:13:41,577 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:13:48,061 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:13:48,061 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:14:03,437 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:14:03,437 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:14:19,168 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:14:19,168 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:14:35,185 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:14:35,185 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:14:47,443 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:14:47,443 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:14:47,489 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:14:47,490 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:14:49,915 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:14:49,916 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:14:50,078 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:14:50,078 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:14:50,434 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:14:50,434 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:14:50,445 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:14:50,445 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:14:51,064 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:14:51,064 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:14:51,073 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:14:51,073 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:14:51,073 WARNING SenderThread:21478 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 21:14:51,074 DEBUG   SenderThread:21478 [sender.py:send():303] send: config
+2023-01-07 21:14:51,160 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:14:51,161 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:14:51,563 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:14:51,563 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:14:52,949 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:14:56,951 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/config.yaml
+2023-01-07 21:15:06,746 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:15:06,747 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:15:22,133 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:15:22,134 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:15:22,719 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:15:22,720 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:15:22,724 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:15:22,724 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:15:22,970 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:15:22,971 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:15:23,162 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:15:23,162 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:15:23,256 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:15:23,256 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:15:23,268 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:15:23,269 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:15:23,341 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:15:23,342 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:15:23,349 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:15:23,351 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:15:23,351 WARNING SenderThread:21478 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 21:15:23,351 DEBUG   SenderThread:21478 [sender.py:send():303] send: config
+2023-01-07 21:15:23,789 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:15:23,789 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:15:24,969 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:15:28,971 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/config.yaml
+2023-01-07 21:15:37,717 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:15:37,717 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:15:43,829 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:15:43,830 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:15:43,873 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:15:43,873 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:15:44,009 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:15:44,009 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:15:44,183 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:15:44,183 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:15:44,236 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:15:44,236 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:15:44,247 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:15:44,247 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:15:44,902 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:15:44,902 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:15:44,908 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:15:44,908 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:15:44,909 WARNING SenderThread:21478 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 21:15:44,909 DEBUG   SenderThread:21478 [sender.py:send():303] send: config
+2023-01-07 21:15:46,981 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:15:48,984 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:15:50,984 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:15:52,985 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:15:53,231 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:15:53,232 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:15:54,987 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:15:56,988 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:15:58,989 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:15:58,989 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/config.yaml
+2023-01-07 21:16:00,993 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:16:02,994 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:16:04,995 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:16:06,996 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:16:08,843 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:16:08,845 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:16:08,998 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:16:11,001 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:16:13,003 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:16:15,004 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:16:17,005 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:16:17,304 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:16:17,305 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:16:17,305 WARNING SenderThread:21478 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 21:16:17,305 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 21:16:17,306 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:16:17,307 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:16:17,307 DEBUG   SenderThread:21478 [sender.py:send():303] send: history
+2023-01-07 21:16:17,307 DEBUG   SenderThread:21478 [sender.py:send():303] send: summary
+2023-01-07 21:16:17,307 INFO    SenderThread:21478 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 21:16:17,552 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:16:17,553 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:16:18,006 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/wandb-summary.json
+2023-01-07 21:16:19,007 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:16:25,082 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:16:25,083 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:16:30,014 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/config.yaml
+2023-01-07 21:16:32,518 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:16:32,518 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:16:32,561 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:16:32,562 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:16:33,052 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:16:33,052 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:16:33,056 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:16:33,056 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:16:33,532 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:16:33,533 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:16:33,701 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:16:33,701 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:16:33,935 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:16:33,935 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:16:33,948 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: pause
+2023-01-07 21:16:33,949 INFO    HandlerThread:21478 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2023-01-07 21:16:35,043 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: resume
+2023-01-07 21:16:35,043 INFO    HandlerThread:21478 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2023-01-07 21:16:35,050 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:16:35,051 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:16:35,052 WARNING SenderThread:21478 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 21:16:35,052 DEBUG   SenderThread:21478 [sender.py:send():303] send: config
+2023-01-07 21:16:37,018 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:16:39,019 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:16:40,541 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:16:40,542 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:16:41,021 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:16:43,022 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:16:45,025 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:16:47,027 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:16:49,028 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:16:51,030 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:16:53,032 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:16:55,033 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:16:55,938 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:16:55,938 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:16:57,034 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:16:59,035 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:01,038 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:01,039 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/config.yaml
+2023-01-07 21:17:03,039 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:05,040 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:07,042 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:09,042 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:10,392 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:17:10,393 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:17:10,393 WARNING SenderThread:21478 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 21:17:10,393 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 21:17:10,394 DEBUG   SenderThread:21478 [sender.py:send():303] send: history
+2023-01-07 21:17:10,394 DEBUG   SenderThread:21478 [sender.py:send():303] send: summary
+2023-01-07 21:17:10,395 INFO    SenderThread:21478 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 21:17:10,837 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:17:10,839 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 21:17:10,839 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:17:10,841 WARNING SenderThread:21478 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 21:17:10,841 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:17:10,842 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:17:10,842 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:17:10,842 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:17:10,842 DEBUG   SenderThread:21478 [sender.py:send():303] send: history
+2023-01-07 21:17:10,842 DEBUG   SenderThread:21478 [sender.py:send():303] send: summary
+2023-01-07 21:17:10,843 INFO    SenderThread:21478 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 21:17:11,044 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/wandb-summary.json
+2023-01-07 21:17:11,044 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:11,563 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:17:11,564 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:17:13,045 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:15,048 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:17,049 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:19,050 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:21,051 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:23,054 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:25,055 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:27,019 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:17:27,019 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:17:27,058 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:29,059 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:31,060 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:32,061 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/config.yaml
+2023-01-07 21:17:33,063 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:35,064 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:37,067 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:39,068 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:41,069 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:42,504 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:17:42,504 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:17:43,071 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:43,618 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 21:17:43,618 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:17:43,619 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:17:43,619 WARNING SenderThread:21478 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 21:17:43,619 DEBUG   SenderThread:21478 [sender.py:send():303] send: history
+2023-01-07 21:17:43,619 DEBUG   SenderThread:21478 [sender.py:send():303] send: summary
+2023-01-07 21:17:43,620 INFO    SenderThread:21478 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 21:17:44,027 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:17:44,027 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:17:44,028 WARNING SenderThread:21478 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 21:17:44,029 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 21:17:44,030 DEBUG   SenderThread:21478 [sender.py:send():303] send: history
+2023-01-07 21:17:44,031 DEBUG   SenderThread:21478 [sender.py:send():303] send: summary
+2023-01-07 21:17:44,045 INFO    SenderThread:21478 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 21:17:44,071 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/wandb-summary.json
+2023-01-07 21:17:45,075 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:47,076 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:49,078 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:51,080 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:53,082 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:55,084 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:57,085 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:17:58,000 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:17:58,001 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:17:59,086 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:01,088 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:03,089 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:03,089 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/config.yaml
+2023-01-07 21:18:05,090 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:07,091 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:09,093 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:11,095 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:13,096 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:13,393 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:18:13,393 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:18:15,098 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:16,824 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:18:16,825 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:18:16,825 WARNING SenderThread:21478 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 21:18:16,826 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 21:18:16,828 DEBUG   SenderThread:21478 [sender.py:send():303] send: history
+2023-01-07 21:18:16,828 DEBUG   SenderThread:21478 [sender.py:send():303] send: summary
+2023-01-07 21:18:16,829 INFO    SenderThread:21478 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 21:18:17,099 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/wandb-summary.json
+2023-01-07 21:18:17,100 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:17,245 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:18:17,246 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:18:17,246 WARNING SenderThread:21478 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 21:18:17,246 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 21:18:17,247 DEBUG   SenderThread:21478 [sender.py:send():303] send: history
+2023-01-07 21:18:17,248 DEBUG   SenderThread:21478 [sender.py:send():303] send: summary
+2023-01-07 21:18:17,249 INFO    SenderThread:21478 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 21:18:18,100 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/wandb-summary.json
+2023-01-07 21:18:19,103 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:21,106 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:23,106 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:25,109 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:27,110 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:28,837 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:18:28,837 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:18:29,111 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:31,113 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:33,115 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:34,116 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/config.yaml
+2023-01-07 21:18:35,116 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:37,118 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:39,119 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:41,121 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:43,122 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:44,779 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 21:18:44,779 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 21:18:45,124 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:47,126 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:48,944 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:18:48,945 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:18:48,945 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 21:18:48,945 WARNING SenderThread:21478 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 21:18:48,945 DEBUG   SenderThread:21478 [sender.py:send():303] send: history
+2023-01-07 21:18:48,945 DEBUG   SenderThread:21478 [sender.py:send():303] send: summary
+2023-01-07 21:18:48,946 INFO    SenderThread:21478 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 21:18:49,126 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/wandb-summary.json
+2023-01-07 21:18:49,127 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:49,328 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:18:49,328 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 21:18:49,329 DEBUG   SenderThread:21478 [sender.py:send():303] send: metric
+2023-01-07 21:18:49,329 WARNING SenderThread:21478 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 21:18:49,330 DEBUG   SenderThread:21478 [sender.py:send():303] send: history
+2023-01-07 21:18:49,330 DEBUG   SenderThread:21478 [sender.py:send():303] send: summary
+2023-01-07 21:18:49,332 INFO    SenderThread:21478 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 21:18:50,127 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/wandb-summary.json
+2023-01-07 21:18:51,128 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:53,131 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:53,518 DEBUG   SenderThread:21478 [sender.py:send():303] send: telemetry
+2023-01-07 21:18:53,521 DEBUG   SenderThread:21478 [sender.py:send():303] send: exit
+2023-01-07 21:18:53,522 INFO    SenderThread:21478 [sender.py:send_exit():442] handling exit code: 0
+2023-01-07 21:18:53,522 INFO    SenderThread:21478 [sender.py:send_exit():444] handling runtime: 179
+2023-01-07 21:18:53,522 INFO    SenderThread:21478 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 21:18:53,522 INFO    SenderThread:21478 [sender.py:send_exit():450] send defer
+2023-01-07 21:18:53,523 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 21:18:53,523 INFO    HandlerThread:21478 [handler.py:handle_request_defer():162] handle defer: 0
+2023-01-07 21:18:53,523 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: defer
+2023-01-07 21:18:53,523 INFO    SenderThread:21478 [sender.py:send_request_defer():459] handle sender defer: 0
+2023-01-07 21:18:53,523 INFO    SenderThread:21478 [sender.py:transition_state():463] send defer: 1
+2023-01-07 21:18:53,523 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 21:18:53,523 INFO    HandlerThread:21478 [handler.py:handle_request_defer():162] handle defer: 1
+2023-01-07 21:18:53,523 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: defer
+2023-01-07 21:18:53,523 INFO    SenderThread:21478 [sender.py:send_request_defer():459] handle sender defer: 1
+2023-01-07 21:18:53,523 INFO    SenderThread:21478 [sender.py:transition_state():463] send defer: 2
+2023-01-07 21:18:53,524 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 21:18:53,524 INFO    HandlerThread:21478 [handler.py:handle_request_defer():162] handle defer: 2
+2023-01-07 21:18:53,524 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: defer
+2023-01-07 21:18:53,524 INFO    SenderThread:21478 [sender.py:send_request_defer():459] handle sender defer: 2
+2023-01-07 21:18:53,524 INFO    SenderThread:21478 [sender.py:transition_state():463] send defer: 3
+2023-01-07 21:18:53,524 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 21:18:53,524 INFO    HandlerThread:21478 [handler.py:handle_request_defer():162] handle defer: 3
+2023-01-07 21:18:53,524 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: defer
+2023-01-07 21:18:53,524 INFO    SenderThread:21478 [sender.py:send_request_defer():459] handle sender defer: 3
+2023-01-07 21:18:53,524 INFO    SenderThread:21478 [sender.py:transition_state():463] send defer: 4
+2023-01-07 21:18:53,525 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 21:18:53,525 INFO    HandlerThread:21478 [handler.py:handle_request_defer():162] handle defer: 4
+2023-01-07 21:18:53,525 DEBUG   SenderThread:21478 [sender.py:send():303] send: summary
+2023-01-07 21:18:53,525 INFO    SenderThread:21478 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 21:18:53,525 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: defer
+2023-01-07 21:18:53,525 INFO    SenderThread:21478 [sender.py:send_request_defer():459] handle sender defer: 4
+2023-01-07 21:18:53,526 INFO    SenderThread:21478 [sender.py:transition_state():463] send defer: 5
+2023-01-07 21:18:53,526 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 21:18:53,526 INFO    HandlerThread:21478 [handler.py:handle_request_defer():162] handle defer: 5
+2023-01-07 21:18:53,526 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: defer
+2023-01-07 21:18:53,526 INFO    SenderThread:21478 [sender.py:send_request_defer():459] handle sender defer: 5
+2023-01-07 21:18:54,131 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/wandb-summary.json
+2023-01-07 21:18:54,524 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-07 21:18:54,718 INFO    SenderThread:21478 [sender.py:transition_state():463] send defer: 6
+2023-01-07 21:18:54,719 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: poll_exit
+2023-01-07 21:18:54,719 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 21:18:54,720 INFO    HandlerThread:21478 [handler.py:handle_request_defer():162] handle defer: 6
+2023-01-07 21:18:54,720 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: defer
+2023-01-07 21:18:54,720 INFO    SenderThread:21478 [sender.py:send_request_defer():459] handle sender defer: 6
+2023-01-07 21:18:55,131 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:55,132 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/config.yaml
+2023-01-07 21:18:55,525 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-07 21:18:56,385 INFO    SenderThread:21478 [sender.py:transition_state():463] send defer: 7
+2023-01-07 21:18:56,385 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: poll_exit
+2023-01-07 21:18:56,386 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 21:18:56,387 INFO    HandlerThread:21478 [handler.py:handle_request_defer():162] handle defer: 7
+2023-01-07 21:18:56,387 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: defer
+2023-01-07 21:18:56,387 INFO    SenderThread:21478 [sender.py:send_request_defer():459] handle sender defer: 7
+2023-01-07 21:18:56,387 INFO    SenderThread:21478 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-01-07 21:18:56,526 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-07 21:18:57,132 INFO    Thread-13 :21478 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:57,133 INFO    SenderThread:21478 [dir_watcher.py:finish():392] scan: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files
+2023-01-07 21:18:57,133 INFO    SenderThread:21478 [dir_watcher.py:finish():406] scan save: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/config.yaml config.yaml
+2023-01-07 21:18:57,133 INFO    SenderThread:21478 [dir_watcher.py:finish():406] scan save: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/wandb-metadata.json wandb-metadata.json
+2023-01-07 21:18:57,133 INFO    SenderThread:21478 [dir_watcher.py:finish():406] scan save: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/requirements.txt requirements.txt
+2023-01-07 21:18:57,138 INFO    SenderThread:21478 [dir_watcher.py:finish():406] scan save: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/conda-environment.yaml conda-environment.yaml
+2023-01-07 21:18:57,143 INFO    SenderThread:21478 [dir_watcher.py:finish():406] scan save: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/wandb-summary.json wandb-summary.json
+2023-01-07 21:18:57,143 INFO    SenderThread:21478 [dir_watcher.py:finish():406] scan save: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log output.log
+2023-01-07 21:18:57,152 INFO    SenderThread:21478 [sender.py:transition_state():463] send defer: 8
+2023-01-07 21:18:57,158 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: poll_exit
+2023-01-07 21:18:57,159 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 21:18:57,159 INFO    HandlerThread:21478 [handler.py:handle_request_defer():162] handle defer: 8
+2023-01-07 21:18:57,160 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: defer
+2023-01-07 21:18:57,160 INFO    SenderThread:21478 [sender.py:send_request_defer():459] handle sender defer: 8
+2023-01-07 21:18:57,160 INFO    SenderThread:21478 [file_pusher.py:finish():168] shutting down file pusher
+2023-01-07 21:18:57,526 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-07 21:18:57,527 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: poll_exit
+2023-01-07 21:18:58,374 INFO    Thread-18 :21478 [upload_job.py:push():143] Uploaded file /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/requirements.txt
+2023-01-07 21:18:58,380 INFO    Thread-19 :21478 [upload_job.py:push():143] Uploaded file /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/conda-environment.yaml
+2023-01-07 21:18:58,382 INFO    Thread-21 :21478 [upload_job.py:push():143] Uploaded file /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/output.log
+2023-01-07 21:18:58,527 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-07 21:18:58,527 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: poll_exit
+2023-01-07 21:18:58,643 INFO    Thread-17 :21478 [upload_job.py:push():143] Uploaded file /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/config.yaml
+2023-01-07 21:18:58,665 INFO    Thread-20 :21478 [upload_job.py:push():143] Uploaded file /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/files/wandb-summary.json
+2023-01-07 21:18:58,866 INFO    Thread-12 :21478 [sender.py:transition_state():463] send defer: 9
+2023-01-07 21:18:58,867 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 21:18:58,867 INFO    HandlerThread:21478 [handler.py:handle_request_defer():162] handle defer: 9
+2023-01-07 21:18:58,867 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: defer
+2023-01-07 21:18:58,867 INFO    SenderThread:21478 [sender.py:send_request_defer():459] handle sender defer: 9
+2023-01-07 21:18:58,867 INFO    SenderThread:21478 [file_pusher.py:join():173] waiting for file pusher
+2023-01-07 21:18:58,867 INFO    SenderThread:21478 [sender.py:transition_state():463] send defer: 10
+2023-01-07 21:18:58,868 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 21:18:58,868 INFO    HandlerThread:21478 [handler.py:handle_request_defer():162] handle defer: 10
+2023-01-07 21:18:58,868 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: defer
+2023-01-07 21:18:58,868 INFO    SenderThread:21478 [sender.py:send_request_defer():459] handle sender defer: 10
+2023-01-07 21:18:59,528 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-07 21:18:59,880 INFO    SenderThread:21478 [sender.py:transition_state():463] send defer: 11
+2023-01-07 21:18:59,880 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: poll_exit
+2023-01-07 21:18:59,881 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 21:18:59,882 INFO    HandlerThread:21478 [handler.py:handle_request_defer():162] handle defer: 11
+2023-01-07 21:18:59,882 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: defer
+2023-01-07 21:18:59,882 INFO    SenderThread:21478 [sender.py:send_request_defer():459] handle sender defer: 11
+2023-01-07 21:18:59,882 INFO    SenderThread:21478 [sender.py:transition_state():463] send defer: 12
+2023-01-07 21:18:59,883 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 21:18:59,883 DEBUG   SenderThread:21478 [sender.py:send():303] send: final
+2023-01-07 21:18:59,884 INFO    HandlerThread:21478 [handler.py:handle_request_defer():162] handle defer: 12
+2023-01-07 21:18:59,884 DEBUG   SenderThread:21478 [sender.py:send():303] send: footer
+2023-01-07 21:18:59,884 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: defer
+2023-01-07 21:18:59,884 INFO    SenderThread:21478 [sender.py:send_request_defer():459] handle sender defer: 12
+2023-01-07 21:18:59,887 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-07 21:18:59,887 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: poll_exit
+2023-01-07 21:18:59,888 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: server_info
+2023-01-07 21:18:59,888 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: get_summary
+2023-01-07 21:18:59,888 DEBUG   SenderThread:21478 [sender.py:send_request():317] send_request: server_info
+2023-01-07 21:18:59,889 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: sampled_history
+2023-01-07 21:19:00,960 DEBUG   HandlerThread:21478 [handler.py:handle_request():139] handle_request: shutdown
+2023-01-07 21:19:00,961 INFO    HandlerThread:21478 [handler.py:finish():814] shutting down handler
+2023-01-07 21:19:01,885 INFO    WriterThread:21478 [datastore.py:close():279] close: /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_211049-r5w6bx1n/run-r5w6bx1n.wandb
+2023-01-07 21:19:01,958 INFO    SenderThread:21478 [sender.py:finish():1331] shutting down sender
+2023-01-07 21:19:01,959 INFO    SenderThread:21478 [file_pusher.py:finish():168] shutting down file pusher
+2023-01-07 21:19:01,959 INFO    SenderThread:21478 [file_pusher.py:join():173] waiting for file pusher
+2023-01-07 21:22:56,054 INFO    MainThread:21478 [internal.py:handle_exit():77] Internal process exited

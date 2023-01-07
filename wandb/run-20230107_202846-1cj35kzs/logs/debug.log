@@ -1,0 +1,71 @@
+2023-01-07 20:28:46,948 INFO    MainThread:12623 [wandb_setup.py:_flush():68] Configure stats pid to 12623
+2023-01-07 20:28:46,948 INFO    MainThread:12623 [wandb_setup.py:_flush():68] Loading settings from /home/peppe/.config/wandb/settings
+2023-01-07 20:28:46,948 INFO    MainThread:12623 [wandb_setup.py:_flush():68] Loading settings from /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/settings
+2023-01-07 20:28:46,948 INFO    MainThread:12623 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-01-07 20:28:46,948 INFO    MainThread:12623 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-01-07 20:28:46,948 INFO    MainThread:12623 [wandb_init.py:_log_setup():476] Logging user logs to /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_202846-1cj35kzs/logs/debug.log
+2023-01-07 20:28:46,948 INFO    MainThread:12623 [wandb_init.py:_log_setup():477] Logging internal logs to /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_202846-1cj35kzs/logs/debug-internal.log
+2023-01-07 20:28:46,948 INFO    MainThread:12623 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f41606610d0>
+2023-01-07 20:28:46,949 INFO    MainThread:12623 [wandb_init.py:init():516] calling init triggers
+2023-01-07 20:28:46,950 INFO    MainThread:12623 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'lr': 0.0001, 'wd': 0.01, 'Scheduler': 'NO', 'History': 5, 'Delay': 2, 'Time_resolution': Timedelta('1 days 00:00:00'), 'epochs': 10}
+2023-01-07 20:28:46,950 INFO    MainThread:12623 [wandb_init.py:init():569] starting backend
+2023-01-07 20:28:46,950 INFO    MainThread:12623 [wandb_init.py:init():573] setting up manager
+2023-01-07 20:28:46,957 INFO    MainThread:12623 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-01-07 20:28:46,961 INFO    MainThread:12623 [wandb_init.py:init():580] backend started and connected
+2023-01-07 20:28:46,966 INFO    MainThread:12623 [wandb_run.py:_label_probe_notebook():1116] probe notebook
+2023-01-07 20:28:46,967 INFO    MainThread:12623 [wandb_run.py:_label_probe_notebook():1126] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-01-07 20:28:46,967 INFO    MainThread:12623 [wandb_init.py:init():658] updated telemetry
+2023-01-07 20:28:47,159 INFO    MainThread:12623 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-01-07 20:29:31,468 WARNING MainThread:12623 [wandb_init.py:init():1099] interrupted
+Traceback (most recent call last):
+  File "/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1078, in init
+    run = wi.init()
+  File "/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 697, in init
+    result = handle.wait(
+  File "/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/wandb/sdk/lib/mailbox.py", line 261, in wait
+    found = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/wandb/sdk/lib/mailbox.py", line 118, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/wandb/sdk/lib/mailbox.py", line 114, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/home/peppe/miniconda3/envs/my_env/lib/python3.9/threading.py", line 581, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home/peppe/miniconda3/envs/my_env/lib/python3.9/threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2023-01-07 20:29:32,777 INFO    MainThread:12623 [wandb_setup.py:_flush():68] Configure stats pid to 12623
+2023-01-07 20:29:32,777 INFO    MainThread:12623 [wandb_setup.py:_flush():68] Loading settings from /home/peppe/.config/wandb/settings
+2023-01-07 20:29:32,777 INFO    MainThread:12623 [wandb_setup.py:_flush():68] Loading settings from /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/settings
+2023-01-07 20:29:32,777 INFO    MainThread:12623 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-01-07 20:29:32,777 INFO    MainThread:12623 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-01-07 20:29:32,777 INFO    MainThread:12623 [wandb_init.py:_log_setup():476] Logging user logs to /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_202932-1f6kgjee/logs/debug.log
+2023-01-07 20:29:32,778 INFO    MainThread:12623 [wandb_init.py:_log_setup():477] Logging internal logs to /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/wandb/run-20230107_202932-1f6kgjee/logs/debug-internal.log
+2023-01-07 20:29:32,778 INFO    MainThread:12623 [wandb_init.py:init():516] calling init triggers
+2023-01-07 20:29:32,778 INFO    MainThread:12623 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'lr': 0.0001, 'wd': 0.01, 'Scheduler': 'NO', 'History': 5, 'Delay': 2, 'Time_resolution': Timedelta('1 days 00:00:00'), 'epochs': 10}
+2023-01-07 20:29:32,778 INFO    MainThread:12623 [wandb_init.py:init():569] starting backend
+2023-01-07 20:29:32,778 INFO    MainThread:12623 [wandb_init.py:init():573] setting up manager
+2023-01-07 20:29:32,783 INFO    MainThread:12623 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-01-07 20:29:32,787 INFO    MainThread:12623 [wandb_init.py:init():580] backend started and connected
+2023-01-07 20:29:32,797 INFO    MainThread:12623 [wandb_run.py:_label_probe_notebook():1116] probe notebook
+2023-01-07 20:29:32,797 INFO    MainThread:12623 [wandb_run.py:_label_probe_notebook():1126] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-01-07 20:29:32,797 INFO    MainThread:12623 [wandb_init.py:init():658] updated telemetry
+2023-01-07 20:29:32,940 INFO    MainThread:12623 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-01-07 20:30:20,556 WARNING MainThread:12623 [wandb_init.py:init():1099] interrupted
+Traceback (most recent call last):
+  File "/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1078, in init
+    run = wi.init()
+  File "/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 697, in init
+    result = handle.wait(
+  File "/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/wandb/sdk/lib/mailbox.py", line 261, in wait
+    found = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/wandb/sdk/lib/mailbox.py", line 118, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/wandb/sdk/lib/mailbox.py", line 114, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/home/peppe/miniconda3/envs/my_env/lib/python3.9/threading.py", line 581, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home/peppe/miniconda3/envs/my_env/lib/python3.9/threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

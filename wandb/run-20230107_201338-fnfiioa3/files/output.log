@@ -1,0 +1,240 @@
+
+Epoch 0:   3%|▎         | 3/104 [00:01<00:46,  2.15it/s, loss=12.2, v_num=ioa3]
+  | Name  | Type      | Params
+------------------------------------
+0 | model | HeliosNet | 18.9 M
+1 | MSE   | MSELoss   | 0
+------------------------------------
+18.9 M    Trainable params
+0         Non-trainable params
+18.9 M    Total params
+75.543    Total estimated model params size (MB)
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/trainer/data_loading.py:132: UserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/trainer/data_loading.py:132: UserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  79%|███████▉  | 82/104 [00:31<00:08,  2.59it/s, loss=16.2, v_num=ioa3]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1:  81%|████████  | 84/104 [00:31<00:07,  2.66it/s, loss=13, v_num=ioa3]
+
+Validating:  19%|█▉        | 5/26 [00:00<00:02,  9.57it/s]
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py:688: UserWarning: Detected KeyboardInterrupt, attempting graceful shutdown...
+
+Epoch 2:   1%|          | 1/104 [00:00<00:44,  2.31it/s, loss=12.7, v_num=ioa3]
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+
+Validation sanity check:   0%|          | 0/2 [00:00<?, ?it/s]12.7, v_num=ioa3]
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/core/datamodule.py:469: LightningDeprecationWarning: DataModule.setup has already been called, so it will not be called again. In v1.6 this behavior will change to always call DataModule.setup.
+  rank_zero_deprecation(
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/loggers/wandb.py:341: UserWarning: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+  rank_zero_warn(
+  | Name  | Type      | Params
+------------------------------------
+0 | model | HeliosNet | 18.9 M
+1 | MSE   | MSELoss   | 0
+------------------------------------
+18.9 M    Trainable params
+0         Non-trainable params
+18.9 M    Total params
+75.543    Total estimated model params size (MB)
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:631: UserWarning: Checkpoint directory /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/my-awesome-project/fnfiioa3/checkpoints exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/trainer/data_loading.py:132: UserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/trainer/data_loading.py:132: UserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  81%|████████  | 84/104 [00:31<00:07,  2.64it/s, loss=3.54, v_num=ioa3]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1:  87%|████████▋ | 90/104 [00:31<00:04,  2.84it/s, loss=11.7, v_num=ioa3]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 2:  81%|████████  | 84/104 [00:30<00:07,  2.78it/s, loss=8.21, v_num=ioa3]
+
+
+
+Epoch 3:   9%|▊         | 9/104 [00:03<00:36,  2.62it/s, loss=7.93, v_num=ioa3]
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py:688: UserWarning: Detected KeyboardInterrupt, attempting graceful shutdown...
+
+
+
+Epoch 2:   1%|          | 1/104 [08:13<14:06:59, 493.40s/it, loss=12.7, v_num=ioa3]
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/core/datamodule.py:469: LightningDeprecationWarning: DataModule.setup has already been called, so it will not be called again. In v1.6 this behavior will change to always call DataModule.setup.
+  rank_zero_deprecation(
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/loggers/wandb.py:341: UserWarning: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+  rank_zero_warn(
+  | Name  | Type      | Params
+------------------------------------
+0 | model | HeliosNet | 18.9 M
+1 | MSE   | MSELoss   | 0
+------------------------------------
+18.9 M    Trainable params
+0         Non-trainable params
+18.9 M    Total params
+75.543    Total estimated model params size (MB)
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:631: UserWarning: Checkpoint directory /home/peppe/Desktop/Università/magistrale/Solar_wind_density_forecasting/my-awesome-project/fnfiioa3/checkpoints exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/trainer/data_loading.py:132: UserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/trainer/data_loading.py:132: UserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  83%|████████▎ | 86/104 [00:31<00:06,  2.77it/s, loss=13.2, v_num=ioa3]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1:  92%|█████████▏| 96/104 [00:33<00:02,  2.85it/s, loss=20.6, v_num=ioa3]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 2:  81%|████████  | 84/104 [00:32<00:07,  2.56it/s, loss=12.2, v_num=ioa3]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 3:  90%|█████████ | 94/104 [00:33<00:03,  2.81it/s, loss=15.5, v_num=ioa3]
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 4:  61%|██████    | 63/104 [00:24<00:16,  2.54it/s, loss=9.84, v_num=ioa3]
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py:688: UserWarning: Detected KeyboardInterrupt, attempting graceful shutdown...
+  rank_zero_warn("Detected KeyboardInterrupt, attempting graceful shutdown...")

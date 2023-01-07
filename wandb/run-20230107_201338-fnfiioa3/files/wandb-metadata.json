@@ -1,0 +1,96 @@
+{
+    "os": "Linux-5.15.0-56-generic-x86_64-with-glibc2.31",
+    "python": "3.9.15",
+    "heartbeatAt": "2023-01-07T19:13:41.880512",
+    "startedAt": "2023-01-07T19:13:38.698988",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/difra100/Solar_wind_density_forecasting.git",
+        "commit": "b72f71d85965fecbdbcb4cf52823a0200092624a"
+    },
+    "email": "difrancesco.1836928@studenti.uniroma1.it",
+    "root": "/home/peppe/Desktop/Universit\u00e0/magistrale/Solar_wind_density_forecasting",
+    "host": "peppe",
+    "username": "peppe",
+    "executable": "/home/peppe/miniconda3/envs/my_env/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 1550.7290833333334,
+        "min": 1400.0,
+        "max": 3000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1700.0,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1469.345,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1400.0,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1400.0,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1400.0,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1400.0,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1700.0,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1400.0,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1394.148,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2987.076,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1414.493,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1400.0,
+            "min": 1400.0,
+            "max": 3000.0
+        }
+    ],
+    "disk": {
+        "total": 128.04759979248047,
+        "used": 96.67506790161133
+    },
+    "memory": {
+        "total": 7.139835357666016
+    }
+}

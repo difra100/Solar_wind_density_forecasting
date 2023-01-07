@@ -1,0 +1,187 @@
+  | Name  | Type      | Params
+------------------------------------
+0 | model | HeliosNet | 18.9 M
+1 | MSE   | MSELoss   | 0
+------------------------------------
+18.9 M    Trainable params
+0         Non-trainable params
+18.9 M    Total params
+75.543    Total estimated model params size (MB)
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/trainer/data_loading.py:132: UserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+Validation sanity check:   0%|          | 0/2 [00:00<?, ?it/s]
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/core/datamodule.py:469: LightningDeprecationWarning: DataModule.setup has already been called, so it will not be called again. In v1.6 this behavior will change to always call DataModule.setup.
+  rank_zero_deprecation(
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/loggers/wandb.py:341: UserWarning: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+  rank_zero_warn(
+  | Name  | Type      | Params
+------------------------------------
+0 | model | HeliosNet | 18.9 M
+1 | MSE   | MSELoss   | 0
+------------------------------------
+18.9 M    Trainable params
+0         Non-trainable params
+18.9 M    Total params
+75.543    Total estimated model params size (MB)
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/trainer/data_loading.py:132: UserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/core/datamodule.py:469: LightningDeprecationWarning: DataModule.setup has already been called, so it will not be called again. In v1.6 this behavior will change to always call DataModule.setup.
+  rank_zero_deprecation(
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/loggers/wandb.py:341: UserWarning: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+  rank_zero_warn(
+  | Name  | Type      | Params
+------------------------------------
+0 | model | HeliosNet | 18.9 M
+1 | MSE   | MSELoss   | 0
+------------------------------------
+18.9 M    Trainable params
+0         Non-trainable params
+18.9 M    Total params
+75.543    Total estimated model params size (MB)
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/trainer/data_loading.py:132: UserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/core/datamodule.py:469: LightningDeprecationWarning: DataModule.setup has already been called, so it will not be called again. In v1.6 this behavior will change to always call DataModule.setup.
+  rank_zero_deprecation(
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/loggers/wandb.py:341: UserWarning: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+  rank_zero_warn(
+  | Name  | Type      | Params
+------------------------------------
+0 | model | HeliosNet | 18.9 M
+1 | MSE   | MSELoss   | 0
+------------------------------------
+18.9 M    Trainable params
+0         Non-trainable params
+18.9 M    Total params
+75.543    Total estimated model params size (MB)
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/trainer/data_loading.py:132: UserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+
+Epoch 0:   0%|          | 0/104 [00:00<?, ?it/s]
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/core/datamodule.py:469: LightningDeprecationWarning: DataModule.setup has already been called, so it will not be called again. In v1.6 this behavior will change to always call DataModule.setup.
+  rank_zero_deprecation(
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/loggers/wandb.py:341: UserWarning: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+  rank_zero_warn(
+  | Name  | Type      | Params
+------------------------------------
+0 | model | HeliosNet | 18.9 M
+1 | MSE   | MSELoss   | 0
+------------------------------------
+18.9 M    Trainable params
+0         Non-trainable params
+18.9 M    Total params
+75.543    Total estimated model params size (MB)
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/trainer/data_loading.py:132: UserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/trainer/data_loading.py:132: UserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  85%|████████▍ | 88/104 [00:30<00:05,  2.89it/s, loss=14.2, v_num=bx1n]
+
+Validating:  31%|███       | 8/26 [00:00<00:01, 10.17it/s]
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+  | Name  | Type      | Params
+------------------------------------
+0 | model | HeliosNet | 18.9 M
+1 | MSE   | MSELoss   | 0
+------------------------------------
+18.9 M    Trainable params
+0         Non-trainable params
+18.9 M    Total params
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  79%|███████▉  | 82/104 [00:32<00:08,  2.53it/s, loss=18.3, v_num=bx1n]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1:  85%|████████▍ | 88/104 [00:31<00:05,  2.82it/s, loss=13.3, v_num=bx1n]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 2:  75%|███████▌  | 78/104 [00:30<00:10,  2.59it/s, loss=11.1, v_num=bx1n]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 3:  94%|█████████▍| 98/104 [00:31<00:01,  3.16it/s, loss=7.86, v_num=bx1n]
+
+
+Epoch 4:   7%|▋         | 7/104 [00:02<00:38,  2.53it/s, loss=14.4, v_num=bx1n]
+/home/peppe/miniconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py:688: UserWarning: Detected KeyboardInterrupt, attempting graceful shutdown...
+
+Epoch 4:  10%|▉         | 10/104 [00:03<00:36,  2.56it/s, loss=14.7, v_num=bx1n]

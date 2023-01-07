@@ -1,0 +1,75 @@
+wandb_version: 1
+
+Delay:
+  desc: null
+  value: 2
+History:
+  desc: null
+  value: 5
+Scheduler:
+  desc: null
+  value: 'NO'
+Time_resolution:
+  desc: null
+  value: 1 days 00:00:00
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.7
+    framework: huggingface
+    huggingface_version: 4.24.0
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    m:
+    - 1: trainer/global_step
+      6:
+      - 3
+    - 1: test loss
+      5: 1
+      6:
+      - 1
+    - 1: epoch
+      5: 1
+      6:
+      - 1
+    python_version: 3.9.15
+    start_time: 1673119960.596293
+    t:
+      1:
+      - 1
+      - 9
+      - 11
+      - 41
+      - 49
+      - 55
+      2:
+      - 1
+      - 9
+      - 11
+      - 41
+      - 49
+      - 55
+      3:
+      - 2
+      - 7
+      - 13
+      - 16
+      - 23
+      4: 3.9.15
+      5: 0.13.7
+      6: 4.24.0
+      8:
+      - 1
+      - 5
+epochs:
+  desc: null
+  value: 10
+experiment_name:
+  desc: null
+  value: prova
+lr:
+  desc: null
+  value: 0.0001
+wd:
+  desc: null
+  value: 0.01

@@ -4,7 +4,7 @@ import torch.nn as nn
 from torchvision import transforms
 from torch.utils.data import DataLoader, Dataset
 import pandas as pd
-
+from init import *
 
 transform = transforms.Compose([transforms.ToTensor(), transforms.Grayscale(), transforms.Resize((224,224))])
 
@@ -71,4 +71,39 @@ class DataSet(Dataset):
 
         return self.dataset.iloc[idx, 0], self.dataset.iloc[idx, 1], self.dataset.iloc[idx, 2]
 
+
+sun_dataset = load_data('./datasets/ARI_image_dataset.json')
+
+
+def collate(batch):
+    ''' This is the collate_function for the DataLoader module of pytorch, indeed we just give the wind dataset, since it defines the dataset length, 
+        and then we define the additional modules 
+        INPUT: batch: batch_sizex(timestamp, proton_density, electron_density),
+        OUTPUT: tensor: batch_size x time_steps x image_channels x image_height x image_width,  batch_size x proton_density x electron_density
+    '''
+    tensor = torch.zeros((len(batch), H+1, 1, 224, 224))
+    density = torch.zeros((len(batch), 2)) # Proton and Electron Density tensor
+
+
+    for sample in batch:
+        d = 0
+
+        requested_images = get_history_images(sample[0], H, D, resolution) # sample[0] corrensponds to the date of the solar wind prediction date.
+
+        mid_tensor = torch.zeros((len(requested_images), 1, 224, 224))
+        density_pair = torch.tensor([sample[1], sample[2]])
+
+        for image_idx in range(len(requested_images)):
+
+            image_tensor = torch.tensor(sun_dataset[requested_images[image_idx]])
+
+            mid_tensor[image_idx] = image_tensor
+        
+        tensor[d] = mid_tensor
+        density[d] = density_pair
+
+        d += 1
+        
+    
+    return tensor, density
     
