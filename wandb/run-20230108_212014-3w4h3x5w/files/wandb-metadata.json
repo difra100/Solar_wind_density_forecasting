@@ -1,0 +1,144 @@
+{
+    "os": "Linux-5.15.0-56-generic-x86_64-with-glibc2.35",
+    "python": "3.10.6",
+    "heartbeatAt": "2023-01-08T20:20:15.022681",
+    "startedAt": "2023-01-08T20:20:14.196914",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "solar_wind_forecasting_train-jvsc-c674cffb-e0fb-4294-9c94-f7a18f240e156e51fd4f-e44a-4f4f-8af3-f434dfd90e62.ipynb",
+    "root": "/home/peppe/Desktop/Universit\u00e0/Projects/Solar_wind_density_forecasting",
+    "git": {
+        "remote": "https://github.com/difra100/Solar_wind_density_forecasting.git",
+        "commit": "208648d982bc7b6ac4fe288db2c889b0f8c3dc2a"
+    },
+    "email": "difrancesco.1836928@studenti.uniroma1.it",
+    "host": "peppe-Z690-AORUS-ELITE-DDR4",
+    "username": "peppe",
+    "executable": "/home/peppe/anaconda3/envs/my_env/bin/python",
+    "cpu_count": 12,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 3929.6620000000003,
+        "min": 800.0,
+        "max": 5820.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4699.535,
+            "min": 800.0,
+            "max": 6400.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 6400.0
+        },
+        {
+            "current": 4697.673,
+            "min": 800.0,
+            "max": 6400.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 6400.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 6300.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 6300.0
+        },
+        {
+            "current": 4687.769,
+            "min": 800.0,
+            "max": 6300.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 6300.0
+        },
+        {
+            "current": 4670.614,
+            "min": 800.0,
+            "max": 6300.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 6300.0
+        },
+        {
+            "current": 4694.615,
+            "min": 800.0,
+            "max": 6300.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 6300.0
+        },
+        {
+            "current": 4699.144,
+            "min": 800.0,
+            "max": 6300.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 6300.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 6300.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 6300.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3600.0,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3704.819,
+            "min": 800.0,
+            "max": 3800.0
+        }
+    ],
+    "disk": {
+        "total": 928.9834289550781,
+        "used": 122.42780303955078
+    },
+    "gpu": "NVIDIA GeForce RTX 3090 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090 Ti",
+            "memory_total": 25757220864
+        }
+    ],
+    "memory": {
+        "total": 62.64408874511719
+    }
+}

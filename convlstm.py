@@ -148,7 +148,7 @@ class ConvLSTM(nn.Module):
             hidden_state = self._init_hidden(batch_size=b,
                                              image_size=(h, w))
 
-        #layer_output_list = []
+        layer_output_list = []
         last_state_list = []
 
         seq_len = input_tensor.size(1)
@@ -157,20 +157,20 @@ class ConvLSTM(nn.Module):
         for layer_idx in range(self.num_layers):
 
             h, c = hidden_state[layer_idx]
-            #output_inner = []
+            output_inner = []
             for t in range(seq_len):
                 h, c = self.cell_list[layer_idx](input_tensor=cur_layer_input[:, t, :, :, :],
                                                  cur_state=[h, c])
-                #output_inner.append(h)
+                output_inner.append(h)
 
-            # layer_output = torch.stack(output_inner, dim=1)
-            # cur_layer_input = layer_output
+            layer_output = torch.stack(output_inner, dim=1)
+            cur_layer_input = layer_output
 
-            #layer_output_list.append(layer_output)  # We should take the last element of this. 
+            layer_output_list.append(layer_output)  # We should take the last element of this. 
             last_state_list.append([h, c])          # torch.equal(output[0][0][:,-1,:,:,:], output[1][0][0])
 
         if not self.return_all_layers:
-            #layer_output_list = layer_output_list[-1:]
+            layer_output_list = layer_output_list[-1:]
             last_state_list = last_state_list[-1:]
 
         return last_state_list  # get the value

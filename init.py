@@ -20,7 +20,7 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 n_channels = 1
 
 kernel_size = (3,3)
-n_layers = 2
+n_layers = 5
 batch_first = True
 bias = True
 n_hidden_channels = 8
@@ -29,7 +29,7 @@ convNet = {'firstConv': n_hidden_channels,
             'secondConv': 16,
             'thirdConv' : 32,
             'kernel': kernel_size,
-            'drop': 0.3}
+            'drop': 0.5}
 
 
 
@@ -52,8 +52,8 @@ training_hp = {'lr': 1e-5,
               'History': H+1,
               'Delay': D,
               'Time_resolution': resolution,
-              'epochs': 60,
-              'ConvLSTM_drop': 0.1,
+              'epochs': 100,
+              'ConvLSTM_drop': 0.5,
               'batch_size': batch_size,
               'firstConv': convNet['firstConv'],
               'secondConv': convNet['secondConv'],

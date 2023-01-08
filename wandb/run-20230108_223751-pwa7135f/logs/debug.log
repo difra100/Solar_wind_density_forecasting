@@ -1,0 +1,37 @@
+2023-01-08 22:37:51,496 INFO    MainThread:392737 [wandb_setup.py:_flush():68] Configure stats pid to 392737
+2023-01-08 22:37:51,496 INFO    MainThread:392737 [wandb_setup.py:_flush():68] Loading settings from /home/peppe/.config/wandb/settings
+2023-01-08 22:37:51,496 INFO    MainThread:392737 [wandb_setup.py:_flush():68] Loading settings from /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/settings
+2023-01-08 22:37:51,496 INFO    MainThread:392737 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-01-08 22:37:51,496 INFO    MainThread:392737 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-01-08 22:37:51,497 INFO    MainThread:392737 [wandb_init.py:_log_setup():476] Logging user logs to /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_223751-pwa7135f/logs/debug.log
+2023-01-08 22:37:51,497 INFO    MainThread:392737 [wandb_init.py:_log_setup():477] Logging internal logs to /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_223751-pwa7135f/logs/debug-internal.log
+2023-01-08 22:37:51,497 INFO    MainThread:392737 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7ff826fb93f0>
+2023-01-08 22:37:51,497 INFO    MainThread:392737 [wandb_init.py:init():516] calling init triggers
+2023-01-08 22:37:51,497 INFO    MainThread:392737 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'lr': 1e-05, 'wd': 0.1, 'Scheduler': 'NO', 'History': 5, 'Delay': 2, 'Time_resolution': Timedelta('1 days 00:00:00'), 'epochs': 100, 'ConvLSTM_drop': 0.1, 'batch_size': 4, 'firstConv': 8, 'secondConv': 16, 'thirdConv': 32, 'kernel': (3, 3), 'drop': 0.3}
+2023-01-08 22:37:51,497 INFO    MainThread:392737 [wandb_init.py:init():569] starting backend
+2023-01-08 22:37:51,497 INFO    MainThread:392737 [wandb_init.py:init():573] setting up manager
+2023-01-08 22:37:51,500 INFO    MainThread:392737 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-01-08 22:37:51,503 INFO    MainThread:392737 [wandb_init.py:init():580] backend started and connected
+2023-01-08 22:37:51,513 INFO    MainThread:392737 [wandb_run.py:_label_probe_notebook():1116] probe notebook
+2023-01-08 22:37:51,514 INFO    MainThread:392737 [wandb_run.py:_label_probe_notebook():1126] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-01-08 22:37:51,514 INFO    MainThread:392737 [wandb_init.py:init():658] updated telemetry
+2023-01-08 22:37:51,521 INFO    MainThread:392737 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-01-08 22:37:52,147 INFO    MainThread:392737 [wandb_run.py:_on_init():2006] communicating current version
+2023-01-08 22:37:52,244 INFO    MainThread:392737 [wandb_run.py:_on_init():2010] got version response 
+2023-01-08 22:37:52,245 INFO    MainThread:392737 [wandb_init.py:init():728] starting run threads in backend
+2023-01-08 22:37:54,720 INFO    MainThread:392737 [wandb_run.py:_console_start():1986] atexit reg
+2023-01-08 22:37:54,720 INFO    MainThread:392737 [wandb_run.py:_redirect():1844] redirect: SettingsConsole.WRAP_RAW
+2023-01-08 22:37:54,720 INFO    MainThread:392737 [wandb_run.py:_redirect():1909] Wrapping output streams.
+2023-01-08 22:37:54,720 INFO    MainThread:392737 [wandb_run.py:_redirect():1931] Redirects installed.
+2023-01-08 22:37:54,721 INFO    MainThread:392737 [wandb_init.py:init():765] run started, returning control to user process
+2023-01-08 22:45:07,275 INFO    MainThread:392737 [wandb_run.py:_finish():1753] finishing run small_sunbirds/A CNN-LSTM framework for the solar wind density forecasting/pwa7135f
+2023-01-08 22:45:07,276 INFO    MainThread:392737 [jupyter.py:save_history():448] not saving jupyter history
+2023-01-08 22:45:07,276 INFO    MainThread:392737 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-01-08 22:45:07,276 INFO    MainThread:392737 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2023-01-08 22:45:07,276 INFO    MainThread:392737 [wandb_run.py:_atexit_cleanup():1955] got exitcode: 0
+2023-01-08 22:45:07,276 INFO    MainThread:392737 [wandb_run.py:_restore():1938] restore
+2023-01-08 22:45:07,276 INFO    MainThread:392737 [wandb_run.py:_restore():1944] restore done
+2023-01-08 22:45:11,006 INFO    MainThread:392737 [wandb_run.py:_footer_history_summary_info():3408] rendering history
+2023-01-08 22:45:11,007 INFO    MainThread:392737 [wandb_run.py:_footer_history_summary_info():3440] rendering summary
+2023-01-08 22:45:11,010 INFO    MainThread:392737 [wandb_run.py:_footer_sync_info():3364] logging synced files

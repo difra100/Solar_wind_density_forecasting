@@ -1,0 +1,1052 @@
+2023-01-08 21:44:27,749 INFO    StreamThr :386971 [internal.py:wandb_internal():87] W&B internal server running at pid: 386971, started at: 2023-01-08 21:44:27.747940
+2023-01-08 21:44:27,750 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: status
+2023-01-08 21:44:27,751 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: status
+2023-01-08 21:44:27,759 DEBUG   SenderThread:386971 [sender.py:send():303] send: header
+2023-01-08 21:44:27,759 INFO    WriterThread:386971 [datastore.py:open_for_write():75] open: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/run-22s9sm15.wandb
+2023-01-08 21:44:27,764 DEBUG   SenderThread:386971 [sender.py:send():303] send: run
+2023-01-08 21:44:27,768 INFO    SenderThread:386971 [sender.py:_maybe_setup_resume():593] checking resume status for small_sunbirds/A CNN-LSTM framework for the solar wind density forecasting/22s9sm15
+2023-01-08 21:44:28,372 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: check_version
+2023-01-08 21:44:28,381 INFO    SenderThread:386971 [dir_watcher.py:__init__():216] watching files in: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files
+2023-01-08 21:44:28,381 INFO    SenderThread:386971 [sender.py:_start_run_threads():928] run started: 22s9sm15 with start time 1673210667.745703
+2023-01-08 21:44:28,382 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:44:28,382 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:44:28,382 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: check_version
+2023-01-08 21:44:28,485 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: run_start
+2023-01-08 21:44:28,491 DEBUG   HandlerThread:386971 [system_info.py:__init__():31] System info init
+2023-01-08 21:44:28,491 DEBUG   HandlerThread:386971 [system_info.py:__init__():46] System info init done
+2023-01-08 21:44:28,491 INFO    HandlerThread:386971 [system_monitor.py:start():150] Starting system monitor
+2023-01-08 21:44:28,492 INFO    SystemMonitor:386971 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-08 21:44:28,492 INFO    HandlerThread:386971 [system_monitor.py:probe():171] Collecting system info
+2023-01-08 21:44:28,492 INFO    SystemMonitor:386971 [interfaces.py:start():168] Started cpu
+2023-01-08 21:44:28,492 INFO    SystemMonitor:386971 [interfaces.py:start():168] Started disk
+2023-01-08 21:44:28,493 INFO    SystemMonitor:386971 [interfaces.py:start():168] Started gpu
+2023-01-08 21:44:28,493 INFO    SystemMonitor:386971 [interfaces.py:start():168] Started memory
+2023-01-08 21:44:28,493 INFO    SystemMonitor:386971 [interfaces.py:start():168] Started network
+2023-01-08 21:44:28,556 DEBUG   HandlerThread:386971 [system_info.py:probe():195] Probing system
+2023-01-08 21:44:28,558 DEBUG   HandlerThread:386971 [system_info.py:_probe_git():180] Probing git
+2023-01-08 21:44:28,564 DEBUG   HandlerThread:386971 [system_info.py:_probe_git():188] Probing git done
+2023-01-08 21:44:28,564 DEBUG   HandlerThread:386971 [system_info.py:probe():241] Probing system done
+2023-01-08 21:44:28,565 DEBUG   HandlerThread:386971 [system_monitor.py:probe():180] {'os': 'Linux-5.15.0-56-generic-x86_64-with-glibc2.35', 'python': '3.10.6', 'heartbeatAt': '2023-01-08T20:44:28.556680', 'startedAt': '2023-01-08T20:44:27.726049', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'solar_wind_forecasting_train-jvsc-d7f7ea36-e952-4e9b-a253-e7ae8554ec8e1719e3d3-897e-426f-9a58-b47c65acf1d2.ipynb', 'root': '/home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting', 'git': {'remote': 'https://github.com/difra100/Solar_wind_density_forecasting.git', 'commit': '208648d982bc7b6ac4fe288db2c889b0f8c3dc2a'}, 'email': 'difrancesco.1836928@studenti.uniroma1.it', 'host': 'peppe-Z690-AORUS-ELITE-DDR4', 'username': 'peppe', 'executable': '/home/peppe/anaconda3/envs/my_env/bin/python', 'cpu_count': 12, 'cpu_count_logical': 20, 'cpu_freq': {'current': 4042.6053499999994, 'min': 800.0, 'max': 5820.0}, 'cpu_freq_per_core': [{'current': 4699.997, 'min': 800.0, 'max': 6400.0}, {'current': 3600.0, 'min': 800.0, 'max': 6400.0}, {'current': 4700.0, 'min': 800.0, 'max': 6400.0}, {'current': 3600.0, 'min': 800.0, 'max': 6400.0}, {'current': 3600.0, 'min': 800.0, 'max': 6300.0}, {'current': 3600.0, 'min': 800.0, 'max': 6300.0}, {'current': 3600.0, 'min': 800.0, 'max': 6300.0}, {'current': 3600.0, 'min': 800.0, 'max': 6300.0}, {'current': 4656.607, 'min': 800.0, 'max': 6300.0}, {'current': 3600.0, 'min': 800.0, 'max': 6300.0}, {'current': 4690.2, 'min': 800.0, 'max': 6300.0}, {'current': 3600.0, 'min': 800.0, 'max': 6300.0}, {'current': 4700.004, 'min': 800.0, 'max': 6300.0}, {'current': 3600.0, 'min': 800.0, 'max': 6300.0}, {'current': 3600.0, 'min': 800.0, 'max': 6300.0}, {'current': 3600.0, 'min': 800.0, 'max': 6300.0}, {'current': 3600.0, 'min': 800.0, 'max': 3800.0}, {'current': 3600.0, 'min': 800.0, 'max': 3800.0}, {'current': 3600.0, 'min': 800.0, 'max': 3800.0}, {'current': 3600.0, 'min': 800.0, 'max': 3800.0}], 'disk': {'total': 928.9834289550781, 'used': 123.06572723388672}, 'gpu': 'NVIDIA GeForce RTX 3090 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090 Ti', 'memory_total': 25757220864}], 'memory': {'total': 62.64408874511719}}
+2023-01-08 21:44:28,565 INFO    HandlerThread:386971 [system_monitor.py:probe():181] Finished collecting system info
+2023-01-08 21:44:28,565 INFO    HandlerThread:386971 [system_monitor.py:probe():184] Publishing system info
+2023-01-08 21:44:28,565 DEBUG   HandlerThread:386971 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-01-08 21:44:28,565 DEBUG   HandlerThread:386971 [system_info.py:_save_pip():67] Saving pip packages done
+2023-01-08 21:44:28,565 DEBUG   HandlerThread:386971 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-01-08 21:44:29,382 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_created():275] file/dir created: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/conda-environment.yaml
+2023-01-08 21:44:29,382 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_created():275] file/dir created: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/requirements.txt
+2023-01-08 21:44:29,382 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_created():275] file/dir created: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:44:31,160 DEBUG   HandlerThread:386971 [system_info.py:_save_conda():86] Saving conda packages done
+2023-01-08 21:44:31,161 INFO    HandlerThread:386971 [system_monitor.py:probe():186] Finished publishing system info
+2023-01-08 21:44:31,184 DEBUG   SenderThread:386971 [sender.py:send():303] send: files
+2023-01-08 21:44:31,184 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-01-08 21:44:31,190 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:44:31,190 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:44:31,192 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:44:31,370 DEBUG   SenderThread:386971 [sender.py:send():303] send: telemetry
+2023-01-08 21:44:31,371 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:44:31,371 DEBUG   SenderThread:386971 [sender.py:send():303] send: telemetry
+2023-01-08 21:44:31,371 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:44:31,371 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:44:31,371 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:44:31,371 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:44:31,372 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:44:31,372 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:44:31,372 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:44:31,372 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:44:31,372 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:44:31,372 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:44:31,382 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:44:31,382 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/conda-environment.yaml
+2023-01-08 21:44:31,382 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_created():275] file/dir created: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-metadata.json
+2023-01-08 21:44:31,759 INFO    Thread-16 :386971 [upload_job.py:push():143] Uploaded file /tmp/tmpw87s9mtcwandb/31b8ghmb-wandb-metadata.json
+2023-01-08 21:44:35,848 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:44:35,848 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:44:35,849 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:44:35,849 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:44:35,849 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:44:35,849 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:44:35,851 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:44:36,384 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:44:40,294 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:44:40,340 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:44:40,340 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:44:40,340 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:44:40,340 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:44:40,341 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:44:40,342 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:44:40,385 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:44:44,830 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:44:44,872 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:44:44,873 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:44:44,874 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:44:44,874 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:44:44,874 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:44:44,877 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:44:45,387 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:44:46,372 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:44:46,373 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:44:49,277 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:44:49,277 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:44:49,277 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:44:49,278 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:44:49,278 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:44:49,278 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:44:49,281 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:44:49,388 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:44:54,001 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:44:54,044 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:44:54,045 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:44:54,045 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:44:54,046 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:44:54,046 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:44:54,048 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:44:54,390 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:44:58,479 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:44:58,520 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:44:58,729 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:44:58,729 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:44:58,729 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:44:58,729 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:44:58,732 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:44:59,392 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/config.yaml
+2023-01-08 21:44:59,393 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:45:01,568 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:45:01,568 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:45:02,952 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:02,953 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:02,953 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:45:02,953 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:45:02,954 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:45:02,954 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:45:02,955 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:45:03,394 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:45:07,333 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:07,376 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:45:07,377 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:07,377 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:45:07,377 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:45:07,378 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:45:07,380 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:45:07,396 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:45:11,682 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:11,683 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:45:11,683 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:11,683 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:45:11,683 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:45:11,683 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:45:11,685 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:45:12,397 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:45:16,049 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:16,092 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:45:16,092 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:16,093 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:45:16,093 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:45:16,093 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:45:16,096 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:45:16,399 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:45:16,767 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:45:16,768 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:45:20,655 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:20,697 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:45:20,697 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:20,698 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:45:20,698 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:45:20,698 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:45:20,700 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:45:21,400 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:45:24,995 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:25,040 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:25,040 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:45:25,040 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:45:25,041 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:45:25,041 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:45:25,042 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:45:25,402 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:45:28,494 DEBUG   SystemMonitor:386971 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-08 21:45:28,495 DEBUG   SenderThread:386971 [sender.py:send():303] send: stats
+2023-01-08 21:45:29,383 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:29,424 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:45:29,619 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:29,620 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:45:29,620 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:45:29,620 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:45:29,620 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:45:30,404 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/config.yaml
+2023-01-08 21:45:30,405 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:45:31,957 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:45:31,957 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:45:33,765 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:33,808 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:33,808 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:45:33,808 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:45:33,809 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:45:33,809 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:45:33,809 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:45:34,406 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:45:38,145 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:38,192 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:45:38,193 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:38,194 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:45:38,194 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:45:38,194 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:45:38,196 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:45:38,408 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:45:42,643 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:42,684 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:45:42,684 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:42,685 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:45:42,685 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:45:42,685 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:45:42,685 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:45:43,409 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:45:46,994 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:46,995 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:45:46,995 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:46,995 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:45:46,995 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:45:46,996 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:45:46,996 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:45:47,153 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:45:47,153 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:45:47,411 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:45:51,499 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:45:51,499 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:51,499 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:51,499 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:45:51,500 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:45:51,500 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:45:51,502 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:45:52,413 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:45:55,926 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:55,968 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:45:55,968 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:45:55,969 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:45:55,969 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:45:55,970 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:45:55,970 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:45:56,416 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:45:58,496 DEBUG   SenderThread:386971 [sender.py:send():303] send: stats
+2023-01-08 21:46:00,271 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:00,312 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:46:00,502 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:00,503 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:46:00,503 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:46:00,503 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:46:00,503 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:46:01,418 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/config.yaml
+2023-01-08 21:46:01,418 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:46:02,393 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:46:02,393 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:46:04,685 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:04,685 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:04,685 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:46:04,686 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:46:04,686 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:46:04,686 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:46:04,688 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:46:05,419 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:46:09,061 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:09,110 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:09,110 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:46:09,110 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:46:09,111 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:46:09,111 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:46:09,112 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:46:09,421 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:46:13,344 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:13,388 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:13,388 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:46:13,388 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:46:13,389 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:46:13,389 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:46:13,390 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:46:13,422 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:46:17,704 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:17,704 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:46:17,704 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:17,705 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:46:17,705 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:46:17,705 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:46:17,707 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:46:17,745 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:46:17,745 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:46:18,424 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:46:22,031 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:22,076 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:22,077 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:46:22,077 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:46:22,077 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:46:22,077 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:46:22,078 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:46:22,426 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:46:26,396 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:26,440 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:26,441 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:46:26,441 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:46:26,441 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:46:26,442 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:46:26,442 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:46:27,428 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:46:28,496 DEBUG   SenderThread:386971 [sender.py:send():303] send: stats
+2023-01-08 21:46:30,738 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:30,785 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:46:30,959 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:30,959 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:46:30,959 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:46:30,959 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:46:30,959 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:46:31,430 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/config.yaml
+2023-01-08 21:46:31,430 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:46:32,963 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:46:32,963 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:46:35,062 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:35,104 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:46:35,105 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:35,106 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:46:35,106 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:46:35,106 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:46:35,107 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:46:35,431 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:46:39,462 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:39,508 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:39,508 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:46:39,509 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:46:39,509 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:46:39,509 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:46:39,511 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:46:40,433 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:46:43,760 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:43,808 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:43,808 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:46:43,808 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:46:43,809 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:46:43,809 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:46:43,809 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:46:44,435 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:46:48,115 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:48,116 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:46:48,116 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:48,117 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:46:48,117 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:46:48,117 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:46:48,118 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:46:48,148 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:46:48,149 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:46:48,436 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:46:52,573 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:52,616 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:52,617 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:46:52,617 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:46:52,617 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:46:52,618 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:46:52,620 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:46:53,439 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:46:56,909 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:56,952 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:46:56,952 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:46:56,952 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:46:56,953 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:46:56,953 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:46:56,954 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:46:57,440 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:46:58,497 DEBUG   SenderThread:386971 [sender.py:send():303] send: stats
+2023-01-08 21:47:01,293 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:01,336 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:47:01,502 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:01,502 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:47:01,502 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:47:01,503 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:47:01,503 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:47:02,442 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/config.yaml
+2023-01-08 21:47:02,443 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:47:03,341 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:47:03,342 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:47:05,667 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:05,712 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:05,712 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:47:05,712 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:47:05,713 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:47:05,713 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:47:05,715 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:47:06,444 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:47:09,978 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:10,020 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:10,021 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:47:10,021 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:47:10,022 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:47:10,022 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:47:10,022 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:47:10,445 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:47:14,392 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:14,436 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:47:14,437 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:14,437 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:47:14,437 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:47:14,438 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:47:14,438 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:47:14,447 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:47:18,536 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:47:18,537 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:47:18,767 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:18,767 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:47:18,767 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:18,768 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:47:18,768 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:47:18,768 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:47:18,769 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:47:19,449 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:47:23,118 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:47:23,118 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:23,119 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:23,119 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:47:23,119 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:47:23,119 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:47:23,119 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:47:23,451 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:47:27,473 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:27,516 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:27,517 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:47:27,517 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:47:27,518 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:47:27,518 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:47:27,518 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:47:28,453 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:47:28,498 DEBUG   SenderThread:386971 [sender.py:send():303] send: stats
+2023-01-08 21:47:31,844 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:47:31,965 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:31,966 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:31,966 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:47:31,966 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:47:31,966 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:47:31,967 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:47:32,455 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/config.yaml
+2023-01-08 21:47:32,455 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:47:33,736 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:47:33,736 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:47:36,277 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:36,278 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:36,278 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:47:36,278 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:47:36,278 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:47:36,278 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:47:36,279 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:47:36,457 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:47:40,605 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:40,648 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:47:40,648 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:40,649 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:47:40,649 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:47:40,649 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:47:40,650 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:47:41,458 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:47:44,997 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:45,040 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:47:45,040 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:45,041 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:47:45,041 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:47:45,041 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:47:45,043 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:47:45,460 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:47:49,293 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:47:49,293 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:47:49,505 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:47:49,526 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:49,526 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:49,526 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:47:49,526 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:47:49,527 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:47:49,527 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:47:50,463 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:47:53,849 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:53,891 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:53,892 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:47:53,892 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:47:53,892 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:47:53,892 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:47:53,893 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:47:54,465 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:47:58,154 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:58,196 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:47:58,196 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:47:58,196 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:47:58,198 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:47:58,198 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:47:58,200 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:47:58,466 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:47:58,499 DEBUG   SenderThread:386971 [sender.py:send():303] send: stats
+2023-01-08 21:48:02,468 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/config.yaml
+2023-01-08 21:48:02,558 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:02,600 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:48:02,600 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:02,601 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:48:02,601 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:48:02,601 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:48:02,602 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:48:03,468 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:48:04,529 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:48:04,529 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:48:06,909 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:06,909 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:48:06,910 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:06,910 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:48:06,910 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:48:06,910 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:48:06,911 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:48:07,470 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:48:11,346 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:11,392 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:11,392 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:48:11,392 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:48:11,393 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:48:11,393 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:48:11,395 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:48:11,471 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:48:15,687 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:15,728 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:15,728 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:48:15,728 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:48:15,729 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:48:15,729 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:48:15,729 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:48:16,473 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:48:19,792 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:48:19,792 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:48:19,993 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:19,994 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:19,994 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:48:19,994 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:48:19,994 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:48:19,994 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:48:19,995 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:48:20,475 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:48:24,406 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:24,448 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:24,448 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:48:24,448 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:48:24,449 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:48:24,449 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:48:24,451 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:48:24,476 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:48:28,500 DEBUG   SenderThread:386971 [sender.py:send():303] send: stats
+2023-01-08 21:48:28,821 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:48:28,821 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:28,822 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:28,822 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:48:28,822 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:48:28,822 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:48:28,822 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:48:29,478 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:48:33,264 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:48:33,427 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:33,427 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:33,427 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:48:33,427 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:48:33,427 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:48:33,428 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:48:33,479 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/config.yaml
+2023-01-08 21:48:33,479 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:48:34,988 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:48:34,989 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:48:37,625 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:37,625 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:48:37,626 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:37,626 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:48:37,626 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:48:37,626 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:48:37,629 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:48:38,481 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:48:42,019 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:42,060 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:42,060 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:48:42,060 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:48:42,061 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:48:42,061 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:48:42,062 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:48:42,483 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:48:46,376 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:46,420 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:48:46,421 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:46,421 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:48:46,421 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:48:46,422 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:48:46,422 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:48:46,484 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:48:50,246 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:48:50,247 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:48:50,692 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:50,693 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:50,693 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:48:50,693 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:48:50,694 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:48:50,694 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:48:50,695 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:48:51,486 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:48:55,124 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:55,168 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:55,169 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:48:55,169 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:48:55,170 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:48:55,170 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:48:55,171 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:48:55,487 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:48:58,501 DEBUG   SenderThread:386971 [sender.py:send():303] send: stats
+2023-01-08 21:48:59,450 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:59,496 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:48:59,496 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:48:59,497 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:48:59,497 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:48:59,497 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:48:59,498 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:49:00,489 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:49:03,766 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:03,767 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:49:03,767 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:03,767 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:49:03,767 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:49:03,767 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:49:03,769 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:49:04,490 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/config.yaml
+2023-01-08 21:49:04,490 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:49:05,490 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:49:05,490 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:49:08,188 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:49:08,189 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:08,190 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:08,190 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:49:08,190 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:49:08,190 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:49:08,190 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:49:08,493 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:49:12,690 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:12,732 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:12,732 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:49:12,732 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:49:12,733 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:49:12,733 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:49:12,734 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:49:13,495 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:49:16,935 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:16,975 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:16,976 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:49:16,976 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:49:16,976 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:49:16,976 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:49:16,978 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:49:17,497 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:49:20,822 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:49:20,822 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:49:21,324 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:21,324 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:21,324 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:49:21,324 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:49:21,325 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:49:21,325 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:49:21,325 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:49:21,499 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:49:25,687 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:25,732 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:49:25,732 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:25,733 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:49:25,733 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:49:25,733 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:49:25,734 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:49:26,500 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:49:28,502 DEBUG   SenderThread:386971 [sender.py:send():303] send: stats
+2023-01-08 21:49:30,049 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:30,092 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:30,092 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:49:30,092 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:49:30,093 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:49:30,093 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:49:30,094 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:49:30,503 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:49:34,345 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:34,388 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:34,388 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:49:34,388 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:49:34,388 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:49:34,388 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:49:34,389 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:49:34,505 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/config.yaml
+2023-01-08 21:49:34,506 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:49:36,117 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:49:36,118 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:49:38,748 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:38,749 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:49:38,749 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:38,750 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:49:38,750 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:49:38,750 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:49:38,750 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:49:39,507 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:49:43,025 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:43,068 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:43,068 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:49:43,068 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:49:43,069 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:49:43,069 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:49:43,069 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:49:43,509 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:49:47,353 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:47,396 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:47,396 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:49:47,396 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:49:47,397 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:49:47,397 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:49:47,399 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:49:47,511 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:49:51,398 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:49:51,399 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:49:51,687 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:51,688 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:51,688 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:49:51,688 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:49:51,689 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:49:51,689 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:49:51,689 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:49:52,513 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:49:56,103 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:56,144 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:49:56,145 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:49:56,145 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:49:56,145 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:49:56,146 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:49:56,147 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:49:56,515 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:49:58,502 DEBUG   SenderThread:386971 [sender.py:send():303] send: stats
+2023-01-08 21:50:00,465 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:00,508 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:00,509 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:50:00,509 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:50:00,510 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:50:00,510 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:50:00,511 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:50:00,516 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:50:04,806 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:04,852 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:04,852 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:50:04,852 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:50:04,853 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:50:04,854 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:50:04,854 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:50:05,518 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/config.yaml
+2023-01-08 21:50:05,518 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:50:06,587 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:50:06,587 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:50:09,080 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:09,080 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:09,080 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:50:09,080 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:50:09,081 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:50:09,081 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:50:09,081 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:50:09,520 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:50:13,413 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:13,456 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:13,457 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:50:13,457 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:50:13,458 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:50:13,458 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:50:13,458 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:50:13,521 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:50:17,670 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:17,712 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:50:17,712 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:17,713 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:50:17,713 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:50:17,713 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:50:17,715 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:50:18,522 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:50:21,779 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:50:21,779 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:50:21,993 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:50:21,993 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:21,994 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:21,994 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:50:21,994 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:50:21,994 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:50:21,995 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:50:22,524 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:50:26,410 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:26,452 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:26,452 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:50:26,452 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:50:26,453 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:50:26,453 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:50:26,453 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:50:26,526 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:50:28,502 DEBUG   SenderThread:386971 [sender.py:send():303] send: stats
+2023-01-08 21:50:30,741 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:30,784 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:50:30,784 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:30,785 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:50:30,785 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:50:30,785 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:50:30,785 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:50:31,528 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:50:35,032 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:35,076 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:50:35,076 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:35,076 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:50:35,076 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:50:35,076 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:50:35,077 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:50:35,530 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/config.yaml
+2023-01-08 21:50:35,530 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:50:36,977 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:50:36,977 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:50:39,352 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:50:39,353 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:39,353 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:39,353 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:50:39,353 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:50:39,354 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:50:39,354 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:50:39,531 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:50:43,603 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:43,644 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:43,644 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:50:43,644 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:50:43,645 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:50:43,645 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:50:43,646 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:50:44,534 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:50:47,867 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:47,912 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:47,912 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:50:47,912 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:50:47,913 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:50:47,913 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:50:47,915 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:50:48,536 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:50:52,168 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:50:52,168 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:50:52,243 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:50:52,391 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:52,391 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:52,391 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:50:52,391 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:50:52,392 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:50:52,392 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:50:52,537 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:50:56,578 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:56,624 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:50:56,624 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:50:56,625 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:50:56,625 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:50:56,625 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:50:56,625 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:50:57,540 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:50:58,503 DEBUG   SenderThread:386971 [sender.py:send():303] send: stats
+2023-01-08 21:51:00,983 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:51:01,024 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:51:01,024 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:51:01,025 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:51:01,025 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:51:01,025 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:51:01,026 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:51:01,542 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:51:05,336 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:51:05,384 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:51:05,565 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:51:05,565 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:51:05,565 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:51:05,565 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:51:05,566 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:51:06,544 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/config.yaml
+2023-01-08 21:51:06,544 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:51:07,394 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:51:07,394 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:51:09,621 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:51:09,621 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:51:09,621 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:51:09,621 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:51:09,621 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:51:09,621 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:51:09,622 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:51:10,545 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:51:13,959 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:51:14,000 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:51:14,000 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:51:14,001 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:51:14,001 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:51:14,001 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:51:14,002 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:51:14,547 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:51:18,361 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:51:18,404 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:51:18,404 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:51:18,405 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:51:18,405 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:51:18,405 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:51:18,407 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:51:18,550 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:51:22,578 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:51:22,578 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:51:22,788 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:51:22,789 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:51:22,789 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:51:22,789 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:51:22,789 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:51:22,789 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:51:22,790 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:51:23,552 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:51:27,288 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:51:27,336 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:51:27,337 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:51:27,337 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:51:27,337 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:51:27,337 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:51:27,338 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:51:27,553 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:51:28,504 DEBUG   SenderThread:386971 [sender.py:send():303] send: stats
+2023-01-08 21:51:31,455 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:51:31,496 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:51:31,497 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:51:31,497 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:51:31,497 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:51:31,498 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:51:31,500 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:51:31,555 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:51:35,712 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:51:35,760 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:51:35,933 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:51:35,933 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:51:35,933 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:51:35,933 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:51:35,933 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:51:36,557 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/config.yaml
+2023-01-08 21:51:36,558 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:51:37,767 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-08 21:51:37,767 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: stop_status
+2023-01-08 21:51:40,127 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:51:40,168 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:51:40,169 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:51:40,169 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:51:40,169 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:51:40,170 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:51:40,171 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:51:40,559 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:51:44,380 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-08 21:51:44,380 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:51:44,381 DEBUG   SenderThread:386971 [sender.py:send():303] send: metric
+2023-01-08 21:51:44,381 WARNING SenderThread:386971 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-08 21:51:44,381 DEBUG   SenderThread:386971 [sender.py:send():303] send: history
+2023-01-08 21:51:44,381 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:51:44,381 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:51:44,561 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:51:44,611 DEBUG   SenderThread:386971 [sender.py:send():303] send: telemetry
+2023-01-08 21:51:44,621 DEBUG   SenderThread:386971 [sender.py:send():303] send: exit
+2023-01-08 21:51:44,622 INFO    SenderThread:386971 [sender.py:send_exit():442] handling exit code: 0
+2023-01-08 21:51:44,622 INFO    SenderThread:386971 [sender.py:send_exit():444] handling runtime: 436
+2023-01-08 21:51:44,623 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:51:44,623 INFO    SenderThread:386971 [sender.py:send_exit():450] send defer
+2023-01-08 21:51:44,623 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: defer
+2023-01-08 21:51:44,623 INFO    HandlerThread:386971 [handler.py:handle_request_defer():162] handle defer: 0
+2023-01-08 21:51:44,623 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: defer
+2023-01-08 21:51:44,623 INFO    SenderThread:386971 [sender.py:send_request_defer():459] handle sender defer: 0
+2023-01-08 21:51:44,624 INFO    SenderThread:386971 [sender.py:transition_state():463] send defer: 1
+2023-01-08 21:51:44,624 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: defer
+2023-01-08 21:51:44,624 INFO    HandlerThread:386971 [handler.py:handle_request_defer():162] handle defer: 1
+2023-01-08 21:51:44,624 INFO    HandlerThread:386971 [system_monitor.py:finish():160] Stopping system monitor
+2023-01-08 21:51:44,624 DEBUG   SystemMonitor:386971 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-08 21:51:44,625 DEBUG   SystemMonitor:386971 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-08 21:51:44,625 INFO    HandlerThread:386971 [interfaces.py:finish():175] Joined cpu
+2023-01-08 21:51:44,625 INFO    HandlerThread:386971 [interfaces.py:finish():175] Joined disk
+2023-01-08 21:51:44,702 INFO    HandlerThread:386971 [interfaces.py:finish():175] Joined gpu
+2023-01-08 21:51:44,702 INFO    HandlerThread:386971 [interfaces.py:finish():175] Joined memory
+2023-01-08 21:51:44,702 INFO    HandlerThread:386971 [interfaces.py:finish():175] Joined network
+2023-01-08 21:51:44,702 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: defer
+2023-01-08 21:51:44,703 INFO    SenderThread:386971 [sender.py:send_request_defer():459] handle sender defer: 1
+2023-01-08 21:51:44,703 INFO    SenderThread:386971 [sender.py:transition_state():463] send defer: 2
+2023-01-08 21:51:44,703 DEBUG   SenderThread:386971 [sender.py:send():303] send: stats
+2023-01-08 21:51:44,704 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: defer
+2023-01-08 21:51:44,704 INFO    HandlerThread:386971 [handler.py:handle_request_defer():162] handle defer: 2
+2023-01-08 21:51:44,704 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: defer
+2023-01-08 21:51:44,704 INFO    SenderThread:386971 [sender.py:send_request_defer():459] handle sender defer: 2
+2023-01-08 21:51:44,704 INFO    SenderThread:386971 [sender.py:transition_state():463] send defer: 3
+2023-01-08 21:51:44,704 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: defer
+2023-01-08 21:51:44,704 INFO    HandlerThread:386971 [handler.py:handle_request_defer():162] handle defer: 3
+2023-01-08 21:51:44,704 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: defer
+2023-01-08 21:51:44,704 INFO    SenderThread:386971 [sender.py:send_request_defer():459] handle sender defer: 3
+2023-01-08 21:51:44,704 INFO    SenderThread:386971 [sender.py:transition_state():463] send defer: 4
+2023-01-08 21:51:44,704 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: defer
+2023-01-08 21:51:44,704 INFO    HandlerThread:386971 [handler.py:handle_request_defer():162] handle defer: 4
+2023-01-08 21:51:44,704 DEBUG   SenderThread:386971 [sender.py:send():303] send: summary
+2023-01-08 21:51:44,705 INFO    SenderThread:386971 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 21:51:44,705 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: defer
+2023-01-08 21:51:44,705 INFO    SenderThread:386971 [sender.py:send_request_defer():459] handle sender defer: 4
+2023-01-08 21:51:44,705 INFO    SenderThread:386971 [sender.py:transition_state():463] send defer: 5
+2023-01-08 21:51:44,705 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: defer
+2023-01-08 21:51:44,705 INFO    HandlerThread:386971 [handler.py:handle_request_defer():162] handle defer: 5
+2023-01-08 21:51:44,705 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: defer
+2023-01-08 21:51:44,705 INFO    SenderThread:386971 [sender.py:send_request_defer():459] handle sender defer: 5
+2023-01-08 21:51:44,922 INFO    SenderThread:386971 [sender.py:transition_state():463] send defer: 6
+2023-01-08 21:51:44,922 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: defer
+2023-01-08 21:51:44,922 INFO    HandlerThread:386971 [handler.py:handle_request_defer():162] handle defer: 6
+2023-01-08 21:51:44,922 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: defer
+2023-01-08 21:51:44,922 INFO    SenderThread:386971 [sender.py:send_request_defer():459] handle sender defer: 6
+2023-01-08 21:51:44,922 INFO    SenderThread:386971 [sender.py:transition_state():463] send defer: 7
+2023-01-08 21:51:44,923 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: defer
+2023-01-08 21:51:44,923 INFO    HandlerThread:386971 [handler.py:handle_request_defer():162] handle defer: 7
+2023-01-08 21:51:44,923 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: defer
+2023-01-08 21:51:44,923 INFO    SenderThread:386971 [sender.py:send_request_defer():459] handle sender defer: 7
+2023-01-08 21:51:44,923 INFO    SenderThread:386971 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-01-08 21:51:45,561 INFO    Thread-13 :386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/config.yaml
+2023-01-08 21:51:45,562 INFO    SenderThread:386971 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:51:45,562 INFO    SenderThread:386971 [dir_watcher.py:finish():392] scan: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files
+2023-01-08 21:51:45,562 INFO    SenderThread:386971 [dir_watcher.py:finish():406] scan save: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/conda-environment.yaml conda-environment.yaml
+2023-01-08 21:51:45,562 INFO    SenderThread:386971 [dir_watcher.py:finish():406] scan save: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/config.yaml config.yaml
+2023-01-08 21:51:45,562 INFO    SenderThread:386971 [dir_watcher.py:finish():406] scan save: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json wandb-summary.json
+2023-01-08 21:51:45,562 INFO    SenderThread:386971 [dir_watcher.py:finish():406] scan save: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/requirements.txt requirements.txt
+2023-01-08 21:51:45,564 INFO    SenderThread:386971 [dir_watcher.py:finish():406] scan save: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-metadata.json wandb-metadata.json
+2023-01-08 21:51:45,564 INFO    SenderThread:386971 [sender.py:transition_state():463] send defer: 8
+2023-01-08 21:51:45,568 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: defer
+2023-01-08 21:51:45,568 INFO    HandlerThread:386971 [handler.py:handle_request_defer():162] handle defer: 8
+2023-01-08 21:51:45,568 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: defer
+2023-01-08 21:51:45,568 INFO    SenderThread:386971 [sender.py:send_request_defer():459] handle sender defer: 8
+2023-01-08 21:51:45,568 INFO    SenderThread:386971 [file_pusher.py:finish():168] shutting down file pusher
+2023-01-08 21:51:45,624 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-08 21:51:45,624 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: poll_exit
+2023-01-08 21:51:46,118 INFO    Thread-18 :386971 [upload_job.py:push():143] Uploaded file /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/config.yaml
+2023-01-08 21:51:46,144 INFO    Thread-19 :386971 [upload_job.py:push():143] Uploaded file /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/wandb-summary.json
+2023-01-08 21:51:46,162 INFO    Thread-20 :386971 [upload_job.py:push():143] Uploaded file /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/requirements.txt
+2023-01-08 21:51:46,196 INFO    Thread-17 :386971 [upload_job.py:push():143] Uploaded file /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/files/conda-environment.yaml
+2023-01-08 21:51:46,397 INFO    Thread-12 (_thread_body):386971 [sender.py:transition_state():463] send defer: 9
+2023-01-08 21:51:46,397 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: defer
+2023-01-08 21:51:46,397 INFO    HandlerThread:386971 [handler.py:handle_request_defer():162] handle defer: 9
+2023-01-08 21:51:46,397 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: defer
+2023-01-08 21:51:46,397 INFO    SenderThread:386971 [sender.py:send_request_defer():459] handle sender defer: 9
+2023-01-08 21:51:46,397 INFO    SenderThread:386971 [file_pusher.py:join():173] waiting for file pusher
+2023-01-08 21:51:46,397 INFO    SenderThread:386971 [sender.py:transition_state():463] send defer: 10
+2023-01-08 21:51:46,398 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: defer
+2023-01-08 21:51:46,398 INFO    HandlerThread:386971 [handler.py:handle_request_defer():162] handle defer: 10
+2023-01-08 21:51:46,398 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: defer
+2023-01-08 21:51:46,398 INFO    SenderThread:386971 [sender.py:send_request_defer():459] handle sender defer: 10
+2023-01-08 21:51:46,624 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-08 21:51:46,882 INFO    SenderThread:386971 [sender.py:transition_state():463] send defer: 11
+2023-01-08 21:51:46,882 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: poll_exit
+2023-01-08 21:51:46,883 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: defer
+2023-01-08 21:51:46,883 INFO    HandlerThread:386971 [handler.py:handle_request_defer():162] handle defer: 11
+2023-01-08 21:51:46,883 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: defer
+2023-01-08 21:51:46,883 INFO    SenderThread:386971 [sender.py:send_request_defer():459] handle sender defer: 11
+2023-01-08 21:51:46,883 INFO    SenderThread:386971 [sender.py:transition_state():463] send defer: 12
+2023-01-08 21:51:46,883 DEBUG   SenderThread:386971 [sender.py:send():303] send: final
+2023-01-08 21:51:46,883 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: defer
+2023-01-08 21:51:46,883 DEBUG   SenderThread:386971 [sender.py:send():303] send: footer
+2023-01-08 21:51:46,883 INFO    HandlerThread:386971 [handler.py:handle_request_defer():162] handle defer: 12
+2023-01-08 21:51:46,884 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: defer
+2023-01-08 21:51:46,884 INFO    SenderThread:386971 [sender.py:send_request_defer():459] handle sender defer: 12
+2023-01-08 21:51:46,884 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-08 21:51:46,884 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: poll_exit
+2023-01-08 21:51:46,885 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: server_info
+2023-01-08 21:51:46,885 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: get_summary
+2023-01-08 21:51:46,885 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: sampled_history
+2023-01-08 21:51:46,885 DEBUG   SenderThread:386971 [sender.py:send_request():317] send_request: server_info
+2023-01-08 21:51:47,253 DEBUG   HandlerThread:386971 [handler.py:handle_request():139] handle_request: shutdown
+2023-01-08 21:51:47,253 INFO    HandlerThread:386971 [handler.py:finish():814] shutting down handler
+2023-01-08 21:51:47,883 INFO    WriterThread:386971 [datastore.py:close():279] close: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_214427-22s9sm15/run-22s9sm15.wandb
+2023-01-08 21:51:48,252 INFO    SenderThread:386971 [sender.py:finish():1331] shutting down sender
+2023-01-08 21:51:48,252 INFO    SenderThread:386971 [file_pusher.py:finish():168] shutting down file pusher
+2023-01-08 21:51:48,252 INFO    SenderThread:386971 [file_pusher.py:join():173] waiting for file pusher
+2023-01-08 21:52:30,552 INFO    MainThread:386971 [internal.py:handle_exit():77] Internal process exited
