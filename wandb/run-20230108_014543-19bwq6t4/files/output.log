@@ -1,0 +1,50 @@
+
+
+
+
+
+Validating:  81%|████████  | 21/26 [00:07<00:01,  2.77it/s]
+
+
+
+
+Validating:  77%|███████▋  | 20/26 [00:07<00:02,  2.88it/s]
+
+
+
+
+Validating:  92%|█████████▏| 24/26 [00:07<00:00,  3.41it/s]
+
+
+
+
+Validating:  85%|████████▍ | 22/26 [00:06<00:01,  3.43it/s]
+
+
+
+
+Validating:  96%|█████████▌| 25/26 [00:07<00:00,  3.45it/s]
+
+
+
+
+Validating:  77%|███████▋  | 20/26 [00:06<00:01,  3.25it/s]
+
+
+
+
+Validating:  92%|█████████▏| 24/26 [00:07<00:00,  3.49it/s]
+
+
+
+
+Validating:  77%|███████▋  | 20/26 [00:06<00:01,  3.43it/s]
+
+
+
+
+
+
+Validating:  96%|█████████▌| 25/26 [00:11<00:00,  1.70it/s]
+/home/massimo/anaconda3/envs/my_env/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py:688: UserWarning: Detected KeyboardInterrupt, attempting graceful shutdown...
+  rank_zero_warn("Detected KeyboardInterrupt, attempting graceful shutdown...")

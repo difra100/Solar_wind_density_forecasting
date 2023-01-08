@@ -1,0 +1,78 @@
+wandb_version: 1
+
+Delay:
+  desc: null
+  value: 2
+History:
+  desc: null
+  value: 5
+Scheduler:
+  desc: null
+  value: 'NO'
+Time_resolution:
+  desc: null
+  value: 1 days 00:00:00
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.7
+    framework: lightning
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    m:
+    - 1: trainer/global_step
+      6:
+      - 3
+    - 1: Loss on train
+      5: 1
+      6:
+      - 1
+    - 1: Loss on test
+      5: 1
+      6:
+      - 1
+    - 1: Electron Density correlation (R)
+      5: 1
+      6:
+      - 1
+    - 1: Proton Density correlation (R)
+      5: 1
+      6:
+      - 1
+    - 1: epoch
+      5: 1
+      6:
+      - 1
+    python_version: 3.9.15
+    start_time: 1673129925.334425
+    t:
+      1:
+      - 1
+      - 9
+      - 41
+      - 55
+      2:
+      - 1
+      - 9
+      - 41
+      - 55
+      3:
+      - 2
+      - 7
+      - 13
+      - 16
+      - 23
+      4: 3.9.15
+      5: 0.13.7
+      8:
+      - 1
+      - 5
+epochs:
+  desc: null
+  value: 30
+lr:
+  desc: null
+  value: 1.0e-05
+wd:
+  desc: null
+  value: 0.01

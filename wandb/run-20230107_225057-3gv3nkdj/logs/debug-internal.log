@@ -1,0 +1,603 @@
+2023-01-07 22:50:57,265 INFO    StreamThr :6321 [internal.py:wandb_internal():87] W&B internal server running at pid: 6321, started at: 2023-01-07 22:50:57.265448
+2023-01-07 22:50:57,266 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: status
+2023-01-07 22:50:57,267 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: status
+2023-01-07 22:50:57,268 DEBUG   SenderThread:6321 [sender.py:send():303] send: header
+2023-01-07 22:50:57,268 INFO    WriterThread:6321 [datastore.py:open_for_write():75] open: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/run-3gv3nkdj.wandb
+2023-01-07 22:50:57,340 DEBUG   SenderThread:6321 [sender.py:send():303] send: run
+2023-01-07 22:50:57,341 INFO    SenderThread:6321 [sender.py:_maybe_setup_resume():593] checking resume status for small_sunbirds/A CNN-LSTM framework for the solar wind density forecasting/3gv3nkdj
+2023-01-07 22:50:58,914 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: check_version
+2023-01-07 22:50:58,915 INFO    SenderThread:6321 [dir_watcher.py:__init__():216] watching files in: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files
+2023-01-07 22:50:58,915 INFO    SenderThread:6321 [sender.py:_start_run_threads():928] run started: 3gv3nkdj with start time 1673128257.264325
+2023-01-07 22:50:58,916 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:50:58,916 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:50:58,916 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: check_version
+2023-01-07 22:50:59,736 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: run_start
+2023-01-07 22:50:59,737 DEBUG   HandlerThread:6321 [system_info.py:__init__():31] System info init
+2023-01-07 22:50:59,737 DEBUG   HandlerThread:6321 [system_info.py:__init__():46] System info init done
+2023-01-07 22:50:59,737 INFO    HandlerThread:6321 [system_monitor.py:start():150] Starting system monitor
+2023-01-07 22:50:59,737 INFO    SystemMonitor:6321 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-07 22:50:59,737 INFO    HandlerThread:6321 [system_monitor.py:probe():171] Collecting system info
+2023-01-07 22:50:59,737 INFO    SystemMonitor:6321 [interfaces.py:start():168] Started cpu
+2023-01-07 22:50:59,738 INFO    SystemMonitor:6321 [interfaces.py:start():168] Started disk
+2023-01-07 22:50:59,739 INFO    SystemMonitor:6321 [interfaces.py:start():168] Started memory
+2023-01-07 22:50:59,739 INFO    SystemMonitor:6321 [interfaces.py:start():168] Started network
+2023-01-07 22:50:59,782 DEBUG   HandlerThread:6321 [system_info.py:probe():195] Probing system
+2023-01-07 22:50:59,790 DEBUG   HandlerThread:6321 [system_info.py:_probe_git():180] Probing git
+2023-01-07 22:50:59,806 DEBUG   HandlerThread:6321 [system_info.py:_probe_git():188] Probing git done
+2023-01-07 22:50:59,806 DEBUG   HandlerThread:6321 [system_info.py:probe():241] Probing system done
+2023-01-07 22:50:59,806 DEBUG   HandlerThread:6321 [system_monitor.py:probe():180] {'os': 'Linux-5.11.0-40-generic-x86_64-with-glibc2.31', 'python': '3.9.15', 'heartbeatAt': '2023-01-07T21:50:59.782505', 'startedAt': '2023-01-07T21:50:57.258399', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/difra100/Solar_wind_density_forecasting.git', 'commit': '1356b1eac1cdb44a0c47cc71e937a973ff88a8ca'}, 'email': 'coppotelli.1705325@studenti.uniroma1.it', 'root': '/home/massimo/Documents/GitHub/Solar_wind_density_forecasting', 'host': 'massimo-Inspiron-5406-2n1', 'username': 'massimo', 'executable': '/home/massimo/anaconda3/envs/my_env/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1646.4405, 'min': 400.0, 'max': 4700.0}, 'cpu_freq_per_core': [{'current': 1700.0, 'min': 400.0, 'max': 4700.0}, {'current': 1700.0, 'min': 400.0, 'max': 4700.0}, {'current': 1700.0, 'min': 400.0, 'max': 4700.0}, {'current': 1700.0, 'min': 400.0, 'max': 4700.0}, {'current': 1200.126, 'min': 400.0, 'max': 4700.0}, {'current': 1700.0, 'min': 400.0, 'max': 4700.0}, {'current': 1700.0, 'min': 400.0, 'max': 4700.0}, {'current': 1700.0, 'min': 400.0, 'max': 4700.0}], 'disk': {'total': 58.56706237792969, 'used': 23.856674194335938}, 'memory': {'total': 15.365314483642578}}
+2023-01-07 22:50:59,807 INFO    HandlerThread:6321 [system_monitor.py:probe():181] Finished collecting system info
+2023-01-07 22:50:59,807 INFO    HandlerThread:6321 [system_monitor.py:probe():184] Publishing system info
+2023-01-07 22:50:59,807 DEBUG   HandlerThread:6321 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-01-07 22:50:59,807 DEBUG   HandlerThread:6321 [system_info.py:_save_pip():67] Saving pip packages done
+2023-01-07 22:50:59,807 DEBUG   HandlerThread:6321 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-01-07 22:50:59,812 ERROR   HandlerThread:6321 [system_info.py:_save_conda():85] Error saving conda packages: [Errno 2] No such file or directory: 'conda'
+Traceback (most recent call last):
+  File "/home/massimo/anaconda3/envs/my_env/lib/python3.9/site-packages/wandb/sdk/internal/system/system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "/home/massimo/anaconda3/envs/my_env/lib/python3.9/subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/home/massimo/anaconda3/envs/my_env/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/home/massimo/anaconda3/envs/my_env/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'conda'
+2023-01-07 22:50:59,813 DEBUG   HandlerThread:6321 [system_info.py:_save_conda():86] Saving conda packages done
+2023-01-07 22:50:59,813 INFO    HandlerThread:6321 [system_monitor.py:probe():186] Finished publishing system info
+2023-01-07 22:50:59,840 DEBUG   SenderThread:6321 [sender.py:send():303] send: files
+2023-01-07 22:50:59,840 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-01-07 22:50:59,849 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:50:59,850 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:50:59,852 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:50:59,918 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_created():275] file/dir created: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-metadata.json
+2023-01-07 22:50:59,919 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_created():275] file/dir created: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:50:59,919 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_created():275] file/dir created: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/requirements.txt
+2023-01-07 22:50:59,919 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_created():275] file/dir created: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/conda-environment.yaml
+2023-01-07 22:51:00,274 DEBUG   SenderThread:6321 [sender.py:send():303] send: telemetry
+2023-01-07 22:51:00,274 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:51:00,275 DEBUG   SenderThread:6321 [sender.py:send():303] send: telemetry
+2023-01-07 22:51:00,275 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:51:00,275 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:51:00,275 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:51:00,276 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:51:00,276 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:51:00,276 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:51:00,276 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:51:00,276 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:51:00,276 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:51:00,277 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:51:00,869 INFO    Thread-16 :6321 [upload_job.py:push():143] Uploaded file /tmp/tmpq0lsoo5jwandb/36zc95kp-wandb-metadata.json
+2023-01-07 22:51:00,917 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:51:15,278 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:51:15,278 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:51:20,928 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_created():275] file/dir created: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:51:22,270 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:51:22,270 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:51:22,270 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:51:22,271 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:51:22,271 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:51:22,271 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:51:22,271 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:51:22,930 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:51:22,930 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:51:24,930 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:51:28,932 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 22:51:30,697 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:51:30,697 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:51:46,162 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:51:46,163 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:51:46,943 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:51:47,672 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:51:47,672 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:51:47,672 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:51:47,672 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:51:47,672 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:51:47,673 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:51:47,673 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:51:47,944 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:51:48,944 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:51:59,739 DEBUG   SystemMonitor:6321 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-07 22:51:59,741 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 22:51:59,949 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 22:52:01,626 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:52:01,627 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:52:12,788 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:52:12,788 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:52:12,788 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:52:12,788 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:52:12,789 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:52:12,789 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:52:12,789 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:52:12,957 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:52:12,958 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:52:14,958 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:52:17,493 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:52:17,493 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:52:29,741 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 22:52:30,966 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 22:52:32,959 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:52:32,960 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:52:38,523 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:52:38,523 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:52:38,523 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:52:38,523 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:52:38,524 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:52:38,524 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:52:38,524 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:52:38,970 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:52:38,971 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:52:40,971 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:52:48,418 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:52:48,419 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:52:59,743 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 22:53:00,982 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 22:53:02,868 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:53:02,868 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:53:02,868 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:53:02,869 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:53:02,869 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:53:02,869 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:53:02,869 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:53:02,983 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:53:02,983 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:53:03,857 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:53:03,858 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:53:04,984 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:53:19,342 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:53:19,343 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:53:26,996 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:53:27,358 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:53:27,358 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:53:27,359 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:53:27,359 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:53:27,359 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:53:27,359 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:53:27,360 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:53:27,997 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:53:28,997 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:53:29,746 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 22:53:33,000 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 22:53:34,807 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:53:34,808 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:53:50,270 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:53:50,272 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:53:53,011 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:53:53,067 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:53:53,067 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:53:53,067 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:53:53,067 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:53:53,068 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:53:53,068 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:53:53,068 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:53:54,012 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:53:55,013 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:53:59,746 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 22:54:04,018 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 22:54:06,242 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:54:06,242 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:54:18,231 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:54:18,231 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:54:18,231 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:54:18,232 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:54:18,232 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:54:18,232 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:54:18,232 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:54:19,027 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:54:19,027 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:54:21,028 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:54:21,667 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:54:21,667 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:54:29,746 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 22:54:35,037 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 22:54:37,167 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:54:37,168 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:54:43,001 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:54:43,001 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:54:43,002 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:54:43,002 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:54:43,002 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:54:43,002 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:54:43,003 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:54:43,040 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:54:43,040 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:54:45,041 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:54:52,834 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:54:52,834 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:54:59,747 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 22:55:06,052 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 22:55:08,303 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:55:08,304 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:55:09,053 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:55:09,169 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:55:09,170 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:55:09,170 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:55:09,170 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:55:09,170 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:55:09,170 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:55:09,171 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:55:10,053 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:55:11,055 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:55:23,826 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:55:23,826 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:55:29,747 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 22:55:34,336 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:55:34,337 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:55:34,337 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:55:34,337 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:55:34,337 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:55:34,338 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:55:34,339 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:55:35,069 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:55:37,070 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 22:55:39,238 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:55:39,239 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:55:54,684 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:55:54,685 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:55:59,082 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:55:59,748 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 22:56:00,116 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:56:00,117 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:56:00,117 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:56:00,117 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:56:00,117 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:56:00,117 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:56:00,117 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:56:01,083 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:56:01,084 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:56:08,086 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 22:56:10,045 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:56:10,046 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:56:25,078 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:56:25,078 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:56:25,078 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:56:25,079 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:56:25,079 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:56:25,079 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:56:25,079 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:56:25,095 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:56:25,095 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:56:25,611 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:56:25,611 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:56:27,096 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:56:29,749 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 22:56:39,103 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 22:56:41,073 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:56:41,074 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:56:47,103 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:56:47,103 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:56:47,103 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:56:47,104 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:56:47,104 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:56:47,104 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:56:47,104 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:56:47,106 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:56:47,106 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:56:49,107 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:56:56,468 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:56:56,469 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:56:59,749 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 22:57:09,115 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:57:09,115 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 22:57:09,161 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:57:09,161 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:57:09,161 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:57:09,162 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:57:09,162 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:57:09,162 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:57:09,163 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:57:10,115 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:57:11,116 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:57:11,855 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:57:11,855 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:57:27,271 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:57:27,272 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:57:29,750 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 22:57:31,107 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:57:31,107 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:57:31,107 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:57:31,107 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:57:31,108 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:57:31,108 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:57:31,108 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:57:31,123 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:57:31,124 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:57:33,125 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:57:41,128 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 22:57:42,717 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:57:42,718 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:57:53,134 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:57:53,730 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:57:53,730 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:57:53,730 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:57:53,731 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:57:53,731 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:57:53,732 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:57:53,732 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:57:54,135 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:57:55,135 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:57:58,180 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:57:58,180 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:57:59,751 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 22:58:13,142 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 22:58:13,674 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:58:13,674 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:58:16,638 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:58:16,638 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:58:16,639 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:58:16,639 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:58:16,639 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:58:16,639 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:58:16,639 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:58:17,143 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:58:17,144 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:58:19,144 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:58:29,206 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:58:29,207 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:58:29,751 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 22:58:39,154 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:58:39,400 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:58:39,401 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:58:39,401 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:58:39,402 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:58:39,402 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:58:39,402 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:58:39,403 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:58:40,154 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:58:41,155 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:58:43,156 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 22:58:44,679 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:58:44,679 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:58:59,752 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 22:59:00,740 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:59:00,740 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:59:03,165 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:59:03,439 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:59:03,439 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:59:03,439 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:59:03,439 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:59:03,439 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:59:03,439 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:59:03,440 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:59:04,166 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:59:05,166 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:59:16,413 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:59:23,949 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:59:24,175 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 22:59:27,176 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:59:27,450 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:59:27,451 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:59:27,451 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:59:27,451 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:59:27,452 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:59:27,452 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:59:27,453 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:59:28,177 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:59:29,178 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:59:29,752 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 22:59:36,415 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:59:36,415 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:59:51,187 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:59:51,373 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:59:51,373 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 22:59:51,373 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 22:59:51,373 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 22:59:51,374 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 22:59:51,374 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 22:59:51,374 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 22:59:51,901 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 22:59:51,901 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 22:59:52,187 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 22:59:53,188 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 22:59:55,189 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 22:59:59,753 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 23:00:07,719 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 23:00:07,720 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 23:00:15,198 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 23:00:15,438 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 23:00:15,438 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 23:00:15,438 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 23:00:15,438 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 23:00:15,439 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 23:00:15,439 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 23:00:15,439 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 23:00:16,198 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 23:00:17,198 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 23:00:23,179 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 23:00:23,179 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 23:00:26,203 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 23:00:29,754 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 23:00:38,644 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 23:00:38,644 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 23:00:39,208 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 23:00:39,931 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 23:00:39,931 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 23:00:39,931 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 23:00:39,931 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 23:00:39,933 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 23:00:39,933 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 23:00:39,933 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 23:00:40,209 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 23:00:41,209 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 23:00:54,104 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 23:00:54,104 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 23:00:58,215 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 23:00:59,755 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 23:01:03,217 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 23:01:04,252 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 23:01:04,253 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 23:01:04,253 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 23:01:04,255 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 23:01:04,255 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 23:01:04,255 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 23:01:04,256 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 23:01:05,218 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 23:01:05,218 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 23:01:09,567 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 23:01:09,567 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 23:01:25,031 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 23:01:25,032 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 23:01:28,228 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 23:01:29,092 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 23:01:29,093 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 23:01:29,093 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 23:01:29,093 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 23:01:29,094 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 23:01:29,095 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 23:01:29,228 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 23:01:29,575 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 23:01:29,758 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 23:01:40,598 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 23:01:40,599 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 23:01:54,811 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 23:01:54,812 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 23:01:54,812 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 23:01:54,813 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 23:01:54,814 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 23:01:54,814 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 23:01:54,815 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 23:01:55,239 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 23:01:59,242 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 23:01:59,758 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 23:02:00,599 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 23:02:00,599 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 23:02:16,022 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 23:02:16,023 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 23:02:21,066 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 23:02:21,067 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 23:02:21,069 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 23:02:21,069 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 23:02:21,069 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 23:02:21,069 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 23:02:21,070 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 23:02:21,255 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 23:02:21,255 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 23:02:23,255 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 23:02:29,912 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 23:02:30,258 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 23:02:31,421 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 23:02:31,421 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 23:02:47,058 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-07 23:02:47,058 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: stop_status
+2023-01-07 23:02:47,265 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 23:02:48,302 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 23:02:48,302 DEBUG   SenderThread:6321 [sender.py:send():303] send: metric
+2023-01-07 23:02:48,303 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-07 23:02:48,303 WARNING SenderThread:6321 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2023-01-07 23:02:48,304 DEBUG   SenderThread:6321 [sender.py:send():303] send: history
+2023-01-07 23:02:48,304 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 23:02:48,304 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 23:02:48,308 DEBUG   SenderThread:6321 [sender.py:send():303] send: telemetry
+2023-01-07 23:02:48,310 DEBUG   SenderThread:6321 [sender.py:send():303] send: exit
+2023-01-07 23:02:48,310 INFO    SenderThread:6321 [sender.py:send_exit():442] handling exit code: 0
+2023-01-07 23:02:48,310 INFO    SenderThread:6321 [sender.py:send_exit():444] handling runtime: 708
+2023-01-07 23:02:48,319 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 23:02:48,319 INFO    SenderThread:6321 [sender.py:send_exit():450] send defer
+2023-01-07 23:02:48,319 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 23:02:48,319 INFO    HandlerThread:6321 [handler.py:handle_request_defer():162] handle defer: 0
+2023-01-07 23:02:48,319 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: defer
+2023-01-07 23:02:48,319 INFO    SenderThread:6321 [sender.py:send_request_defer():459] handle sender defer: 0
+2023-01-07 23:02:48,319 INFO    SenderThread:6321 [sender.py:transition_state():463] send defer: 1
+2023-01-07 23:02:48,320 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 23:02:48,320 INFO    HandlerThread:6321 [handler.py:handle_request_defer():162] handle defer: 1
+2023-01-07 23:02:48,320 INFO    HandlerThread:6321 [system_monitor.py:finish():160] Stopping system monitor
+2023-01-07 23:02:48,320 DEBUG   SystemMonitor:6321 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-07 23:02:48,320 DEBUG   SystemMonitor:6321 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-07 23:02:48,321 INFO    HandlerThread:6321 [interfaces.py:finish():175] Joined cpu
+2023-01-07 23:02:48,321 INFO    HandlerThread:6321 [interfaces.py:finish():175] Joined disk
+2023-01-07 23:02:48,321 INFO    HandlerThread:6321 [interfaces.py:finish():175] Joined memory
+2023-01-07 23:02:48,321 INFO    HandlerThread:6321 [interfaces.py:finish():175] Joined network
+2023-01-07 23:02:48,321 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: defer
+2023-01-07 23:02:48,321 INFO    SenderThread:6321 [sender.py:send_request_defer():459] handle sender defer: 1
+2023-01-07 23:02:48,321 INFO    SenderThread:6321 [sender.py:transition_state():463] send defer: 2
+2023-01-07 23:02:48,321 DEBUG   SenderThread:6321 [sender.py:send():303] send: stats
+2023-01-07 23:02:48,321 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 23:02:48,321 INFO    HandlerThread:6321 [handler.py:handle_request_defer():162] handle defer: 2
+2023-01-07 23:02:48,321 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: defer
+2023-01-07 23:02:48,321 INFO    SenderThread:6321 [sender.py:send_request_defer():459] handle sender defer: 2
+2023-01-07 23:02:48,321 INFO    SenderThread:6321 [sender.py:transition_state():463] send defer: 3
+2023-01-07 23:02:48,322 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 23:02:48,322 INFO    HandlerThread:6321 [handler.py:handle_request_defer():162] handle defer: 3
+2023-01-07 23:02:48,322 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: defer
+2023-01-07 23:02:48,322 INFO    SenderThread:6321 [sender.py:send_request_defer():459] handle sender defer: 3
+2023-01-07 23:02:48,322 INFO    SenderThread:6321 [sender.py:transition_state():463] send defer: 4
+2023-01-07 23:02:48,322 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 23:02:48,322 INFO    HandlerThread:6321 [handler.py:handle_request_defer():162] handle defer: 4
+2023-01-07 23:02:48,322 DEBUG   SenderThread:6321 [sender.py:send():303] send: summary
+2023-01-07 23:02:48,322 INFO    SenderThread:6321 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-07 23:02:48,322 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: defer
+2023-01-07 23:02:48,322 INFO    SenderThread:6321 [sender.py:send_request_defer():459] handle sender defer: 4
+2023-01-07 23:02:48,322 INFO    SenderThread:6321 [sender.py:transition_state():463] send defer: 5
+2023-01-07 23:02:48,322 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 23:02:48,322 INFO    HandlerThread:6321 [handler.py:handle_request_defer():162] handle defer: 5
+2023-01-07 23:02:48,322 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: defer
+2023-01-07 23:02:48,322 INFO    SenderThread:6321 [sender.py:send_request_defer():459] handle sender defer: 5
+2023-01-07 23:02:48,751 INFO    SenderThread:6321 [sender.py:transition_state():463] send defer: 6
+2023-01-07 23:02:48,752 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 23:02:48,752 INFO    HandlerThread:6321 [handler.py:handle_request_defer():162] handle defer: 6
+2023-01-07 23:02:48,752 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: defer
+2023-01-07 23:02:48,752 INFO    SenderThread:6321 [sender.py:send_request_defer():459] handle sender defer: 6
+2023-01-07 23:02:49,266 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 23:02:49,266 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 23:02:49,266 INFO    Thread-13 :6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 23:02:49,312 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-07 23:02:50,714 INFO    SenderThread:6321 [sender.py:transition_state():463] send defer: 7
+2023-01-07 23:02:50,714 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: poll_exit
+2023-01-07 23:02:50,715 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 23:02:50,716 INFO    HandlerThread:6321 [handler.py:handle_request_defer():162] handle defer: 7
+2023-01-07 23:02:50,716 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: defer
+2023-01-07 23:02:50,716 INFO    SenderThread:6321 [sender.py:send_request_defer():459] handle sender defer: 7
+2023-01-07 23:02:50,717 INFO    SenderThread:6321 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-01-07 23:02:51,268 INFO    SenderThread:6321 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 23:02:51,268 INFO    SenderThread:6321 [dir_watcher.py:finish():392] scan: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files
+2023-01-07 23:02:51,269 INFO    SenderThread:6321 [dir_watcher.py:finish():406] scan save: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml config.yaml
+2023-01-07 23:02:51,269 INFO    SenderThread:6321 [dir_watcher.py:finish():406] scan save: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log output.log
+2023-01-07 23:02:51,269 INFO    SenderThread:6321 [dir_watcher.py:finish():406] scan save: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-metadata.json wandb-metadata.json
+2023-01-07 23:02:51,270 INFO    SenderThread:6321 [dir_watcher.py:finish():406] scan save: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/conda-environment.yaml conda-environment.yaml
+2023-01-07 23:02:51,280 INFO    SenderThread:6321 [dir_watcher.py:finish():406] scan save: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json wandb-summary.json
+2023-01-07 23:02:51,280 INFO    SenderThread:6321 [dir_watcher.py:finish():406] scan save: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/requirements.txt requirements.txt
+2023-01-07 23:02:51,280 INFO    SenderThread:6321 [sender.py:transition_state():463] send defer: 8
+2023-01-07 23:02:51,281 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 23:02:51,281 INFO    HandlerThread:6321 [handler.py:handle_request_defer():162] handle defer: 8
+2023-01-07 23:02:51,286 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: defer
+2023-01-07 23:02:51,291 INFO    SenderThread:6321 [sender.py:send_request_defer():459] handle sender defer: 8
+2023-01-07 23:02:51,291 INFO    SenderThread:6321 [file_pusher.py:finish():168] shutting down file pusher
+2023-01-07 23:02:52,429 INFO    Thread-17 :6321 [upload_job.py:push():143] Uploaded file /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/config.yaml
+2023-01-07 23:02:52,430 INFO    Thread-20 :6321 [upload_job.py:push():143] Uploaded file /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/requirements.txt
+2023-01-07 23:02:52,431 INFO    Thread-18 :6321 [upload_job.py:push():143] Uploaded file /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/output.log
+2023-01-07 23:02:52,449 INFO    Thread-19 :6321 [upload_job.py:push():143] Uploaded file /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/files/wandb-summary.json
+2023-01-07 23:02:52,650 INFO    Thread-12 :6321 [sender.py:transition_state():463] send defer: 9
+2023-01-07 23:02:52,651 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 23:02:52,651 INFO    HandlerThread:6321 [handler.py:handle_request_defer():162] handle defer: 9
+2023-01-07 23:02:52,651 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: defer
+2023-01-07 23:02:52,651 INFO    SenderThread:6321 [sender.py:send_request_defer():459] handle sender defer: 9
+2023-01-07 23:02:52,651 INFO    SenderThread:6321 [file_pusher.py:join():173] waiting for file pusher
+2023-01-07 23:02:52,652 INFO    SenderThread:6321 [sender.py:transition_state():463] send defer: 10
+2023-01-07 23:02:52,652 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 23:02:52,652 INFO    HandlerThread:6321 [handler.py:handle_request_defer():162] handle defer: 10
+2023-01-07 23:02:52,652 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: defer
+2023-01-07 23:02:52,652 INFO    SenderThread:6321 [sender.py:send_request_defer():459] handle sender defer: 10
+2023-01-07 23:02:53,423 INFO    SenderThread:6321 [sender.py:transition_state():463] send defer: 11
+2023-01-07 23:02:53,424 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 23:02:53,424 INFO    HandlerThread:6321 [handler.py:handle_request_defer():162] handle defer: 11
+2023-01-07 23:02:53,424 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: defer
+2023-01-07 23:02:53,425 INFO    SenderThread:6321 [sender.py:send_request_defer():459] handle sender defer: 11
+2023-01-07 23:02:53,425 INFO    SenderThread:6321 [sender.py:transition_state():463] send defer: 12
+2023-01-07 23:02:53,425 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: defer
+2023-01-07 23:02:53,426 DEBUG   SenderThread:6321 [sender.py:send():303] send: final
+2023-01-07 23:02:53,426 INFO    HandlerThread:6321 [handler.py:handle_request_defer():162] handle defer: 12
+2023-01-07 23:02:53,426 DEBUG   SenderThread:6321 [sender.py:send():303] send: footer
+2023-01-07 23:02:53,426 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: defer
+2023-01-07 23:02:53,426 INFO    SenderThread:6321 [sender.py:send_request_defer():459] handle sender defer: 12
+2023-01-07 23:02:53,429 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-07 23:02:53,429 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: server_info
+2023-01-07 23:02:53,429 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: poll_exit
+2023-01-07 23:02:53,430 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: get_summary
+2023-01-07 23:02:53,430 DEBUG   SenderThread:6321 [sender.py:send_request():317] send_request: server_info
+2023-01-07 23:02:53,430 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: sampled_history
+2023-01-07 23:02:54,236 DEBUG   HandlerThread:6321 [handler.py:handle_request():139] handle_request: shutdown
+2023-01-07 23:02:54,236 INFO    HandlerThread:6321 [handler.py:finish():814] shutting down handler
+2023-01-07 23:02:54,426 INFO    WriterThread:6321 [datastore.py:close():279] close: /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_225057-3gv3nkdj/run-3gv3nkdj.wandb
+2023-01-07 23:02:55,234 INFO    SenderThread:6321 [sender.py:finish():1331] shutting down sender
+2023-01-07 23:02:55,235 INFO    SenderThread:6321 [file_pusher.py:finish():168] shutting down file pusher
+2023-01-07 23:02:55,235 INFO    SenderThread:6321 [file_pusher.py:join():173] waiting for file pusher
+2023-01-07 23:17:33,480 INFO    MainThread:6321 [internal.py:handle_exit():77] Internal process exited

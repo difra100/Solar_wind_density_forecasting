@@ -1,0 +1,76 @@
+{
+    "os": "Linux-5.11.0-40-generic-x86_64-with-glibc2.31",
+    "python": "3.9.15",
+    "heartbeatAt": "2023-01-07T21:27:59.847588",
+    "startedAt": "2023-01-07T21:27:57.673600",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/difra100/Solar_wind_density_forecasting.git",
+        "commit": "1356b1eac1cdb44a0c47cc71e937a973ff88a8ca"
+    },
+    "email": "coppotelli.1705325@studenti.uniroma1.it",
+    "root": "/home/massimo/Documents/GitHub/Solar_wind_density_forecasting",
+    "host": "massimo-Inspiron-5406-2n1",
+    "username": "massimo",
+    "executable": "/home/massimo/anaconda3/envs/my_env/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1859.80375,
+        "min": 400.0,
+        "max": 4700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1700.0,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1700.0,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1700.0,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1700.0,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1700.0,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1700.0,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1999.433,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1700.0,
+            "min": 400.0,
+            "max": 4700.0
+        }
+    ],
+    "disk": {
+        "total": 58.56706237792969,
+        "used": 23.535430908203125
+    },
+    "memory": {
+        "total": 15.365314483642578
+    }
+}

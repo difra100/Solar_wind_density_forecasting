@@ -203,7 +203,7 @@ class PredictionModule(nn.Module):
         self.pool2d = nn.MaxPool2d(convNet['kernel'])
         self.drop = nn.Dropout(convNet['drop'])
         self.flatten = Flatten()        
-        self.FC1 = nn.Linear(18432, 1024)
+        self.FC1 = nn.Linear(73728, 1024)
         self.FC2 = nn.Linear(1024, 2)
 
 

@@ -1,0 +1,43 @@
+2023-01-07 23:08:44,479 INFO    MainThread:6259 [wandb_setup.py:_flush():68] Configure stats pid to 6259
+2023-01-07 23:08:44,479 INFO    MainThread:6259 [wandb_setup.py:_flush():68] Loading settings from /home/massimo/.config/wandb/settings
+2023-01-07 23:08:44,479 INFO    MainThread:6259 [wandb_setup.py:_flush():68] Loading settings from /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/settings
+2023-01-07 23:08:44,479 INFO    MainThread:6259 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-01-07 23:08:44,479 INFO    MainThread:6259 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-01-07 23:08:44,480 INFO    MainThread:6259 [wandb_init.py:_log_setup():476] Logging user logs to /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_230844-1zdkeau7/logs/debug.log
+2023-01-07 23:08:44,480 INFO    MainThread:6259 [wandb_init.py:_log_setup():477] Logging internal logs to /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_230844-1zdkeau7/logs/debug-internal.log
+2023-01-07 23:08:44,480 INFO    MainThread:6259 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fd22d8e2370>
+2023-01-07 23:08:44,480 INFO    MainThread:6259 [wandb_init.py:init():516] calling init triggers
+2023-01-07 23:08:44,480 INFO    MainThread:6259 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'lr': 1e-05, 'wd': 0.01, 'Scheduler': 'NO', 'History': 5, 'Delay': 2, 'Time_resolution': Timedelta('1 days 00:00:00'), 'epochs': 30}
+2023-01-07 23:08:44,480 INFO    MainThread:6259 [wandb_init.py:init():569] starting backend
+2023-01-07 23:08:44,480 INFO    MainThread:6259 [wandb_init.py:init():573] setting up manager
+2023-01-07 23:08:44,484 INFO    MainThread:6259 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-01-07 23:08:44,485 INFO    MainThread:6259 [wandb_init.py:init():580] backend started and connected
+2023-01-07 23:08:44,487 INFO    MainThread:6259 [wandb_run.py:_label_probe_notebook():1116] probe notebook
+2023-01-07 23:08:44,488 INFO    MainThread:6259 [wandb_run.py:_label_probe_notebook():1126] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-01-07 23:08:44,488 INFO    MainThread:6259 [wandb_init.py:init():658] updated telemetry
+2023-01-07 23:08:44,531 INFO    MainThread:6259 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-01-07 23:09:44,546 ERROR   MainThread:6259 [wandb_init.py:init():704] backend process timed out
+2023-01-07 23:09:44,546 ERROR   MainThread:6259 [wandb_init.py:init():713] encountered error: Error communicating with wandb process
+For more info see: https://docs.wandb.ai/library/init#init-start-error
+2023-01-07 23:12:02,225 INFO    MainThread:6259 [wandb_setup.py:_flush():68] Configure stats pid to 6259
+2023-01-07 23:12:02,225 INFO    MainThread:6259 [wandb_setup.py:_flush():68] Loading settings from /home/massimo/.config/wandb/settings
+2023-01-07 23:12:02,225 INFO    MainThread:6259 [wandb_setup.py:_flush():68] Loading settings from /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/settings
+2023-01-07 23:12:02,225 INFO    MainThread:6259 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-01-07 23:12:02,225 INFO    MainThread:6259 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-01-07 23:12:02,225 INFO    MainThread:6259 [wandb_init.py:_log_setup():476] Logging user logs to /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_231202-1am0vq3n/logs/debug.log
+2023-01-07 23:12:02,225 INFO    MainThread:6259 [wandb_init.py:_log_setup():477] Logging internal logs to /home/massimo/Documents/GitHub/Solar_wind_density_forecasting/wandb/run-20230107_231202-1am0vq3n/logs/debug-internal.log
+2023-01-07 23:12:02,225 INFO    MainThread:6259 [wandb_init.py:init():516] calling init triggers
+2023-01-07 23:12:02,226 INFO    MainThread:6259 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'lr': 1e-05, 'wd': 0.01, 'Scheduler': 'NO', 'History': 5, 'Delay': 2, 'Time_resolution': Timedelta('1 days 00:00:00'), 'epochs': 30}
+2023-01-07 23:12:02,226 INFO    MainThread:6259 [wandb_init.py:init():569] starting backend
+2023-01-07 23:12:02,226 INFO    MainThread:6259 [wandb_init.py:init():573] setting up manager
+2023-01-07 23:12:02,228 INFO    MainThread:6259 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-01-07 23:12:02,229 INFO    MainThread:6259 [wandb_init.py:init():580] backend started and connected
+2023-01-07 23:12:02,232 INFO    MainThread:6259 [wandb_run.py:_label_probe_notebook():1116] probe notebook
+2023-01-07 23:12:02,232 INFO    MainThread:6259 [wandb_run.py:_label_probe_notebook():1126] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-01-07 23:12:02,232 INFO    MainThread:6259 [wandb_init.py:init():658] updated telemetry
+2023-01-07 23:12:02,274 INFO    MainThread:6259 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-01-07 23:13:02,290 ERROR   MainThread:6259 [wandb_init.py:init():704] backend process timed out
+2023-01-07 23:13:02,291 ERROR   MainThread:6259 [wandb_init.py:init():713] encountered error: Error communicating with wandb process
+For more info see: https://docs.wandb.ai/library/init#init-start-error
