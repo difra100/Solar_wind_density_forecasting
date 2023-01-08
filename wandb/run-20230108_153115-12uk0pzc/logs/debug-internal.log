@@ -1,0 +1,45 @@
+2023-01-08 15:31:15,373 INFO    StreamThr :356398 [internal.py:wandb_internal():87] W&B internal server running at pid: 356398, started at: 2023-01-08 15:31:15.373471
+2023-01-08 15:31:15,374 DEBUG   HandlerThread:356398 [handler.py:handle_request():139] handle_request: status
+2023-01-08 15:31:15,375 DEBUG   SenderThread:356398 [sender.py:send_request():317] send_request: status
+2023-01-08 15:31:15,382 DEBUG   SenderThread:356398 [sender.py:send():303] send: header
+2023-01-08 15:31:15,382 INFO    WriterThread:356398 [datastore.py:open_for_write():75] open: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_153115-12uk0pzc/run-12uk0pzc.wandb
+2023-01-08 15:31:15,388 DEBUG   SenderThread:356398 [sender.py:send():303] send: run
+2023-01-08 15:31:15,392 INFO    SenderThread:356398 [sender.py:_maybe_setup_resume():593] checking resume status for small_sunbirds/A CNN-LSTM framework for the solar wind density forecasting/12uk0pzc
+2023-01-08 15:31:15,993 DEBUG   HandlerThread:356398 [handler.py:handle_request():139] handle_request: check_version
+2023-01-08 15:31:15,993 INFO    SenderThread:356398 [dir_watcher.py:__init__():216] watching files in: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_153115-12uk0pzc/files
+2023-01-08 15:31:15,994 INFO    SenderThread:356398 [sender.py:_start_run_threads():928] run started: 12uk0pzc with start time 1673188275.372606
+2023-01-08 15:31:15,994 DEBUG   SenderThread:356398 [sender.py:send():303] send: summary
+2023-01-08 15:31:15,994 INFO    SenderThread:356398 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-08 15:31:15,994 DEBUG   SenderThread:356398 [sender.py:send_request():317] send_request: check_version
+2023-01-08 15:31:16,082 DEBUG   HandlerThread:356398 [handler.py:handle_request():139] handle_request: run_start
+2023-01-08 15:31:16,090 DEBUG   HandlerThread:356398 [system_info.py:__init__():31] System info init
+2023-01-08 15:31:16,090 DEBUG   HandlerThread:356398 [system_info.py:__init__():46] System info init done
+2023-01-08 15:31:16,090 INFO    HandlerThread:356398 [system_monitor.py:start():150] Starting system monitor
+2023-01-08 15:31:16,090 INFO    SystemMonitor:356398 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-08 15:31:16,090 INFO    HandlerThread:356398 [system_monitor.py:probe():171] Collecting system info
+2023-01-08 15:31:16,090 INFO    SystemMonitor:356398 [interfaces.py:start():168] Started cpu
+2023-01-08 15:31:16,091 INFO    SystemMonitor:356398 [interfaces.py:start():168] Started disk
+2023-01-08 15:31:16,091 INFO    SystemMonitor:356398 [interfaces.py:start():168] Started gpu
+2023-01-08 15:31:16,091 INFO    SystemMonitor:356398 [interfaces.py:start():168] Started memory
+2023-01-08 15:31:16,091 INFO    SystemMonitor:356398 [interfaces.py:start():168] Started network
+2023-01-08 15:31:16,137 DEBUG   HandlerThread:356398 [system_info.py:probe():195] Probing system
+2023-01-08 15:31:16,138 DEBUG   HandlerThread:356398 [system_info.py:_probe_git():180] Probing git
+2023-01-08 15:31:16,142 DEBUG   HandlerThread:356398 [system_info.py:_probe_git():188] Probing git done
+2023-01-08 15:31:16,142 DEBUG   HandlerThread:356398 [system_info.py:probe():241] Probing system done
+2023-01-08 15:31:16,142 DEBUG   HandlerThread:356398 [system_monitor.py:probe():180] {'os': 'Linux-5.15.0-56-generic-x86_64-with-glibc2.35', 'python': '3.10.6', 'heartbeatAt': '2023-01-08T14:31:16.137272', 'startedAt': '2023-01-08T14:31:15.365448', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'solar_wind_forecasting_train-jvsc-896014d4-f23d-4ab7-be70-a8c840acb62c57b9d78f-e1ec-4820-bd7a-2009c07facb8.ipynb', 'root': '/home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting', 'git': {'remote': 'https://github.com/difra100/Solar_wind_density_forecasting.git', 'commit': 'b328aa296ad4ffbd311ab0954f3f47981e82d3b3'}, 'email': 'difrancesco.1836928@studenti.uniroma1.it', 'host': 'peppe-Z690-AORUS-ELITE-DDR4', 'username': 'peppe', 'executable': '/home/peppe/anaconda3/envs/my_env/bin/python', 'cpu_count': 12, 'cpu_count_logical': 20, 'cpu_freq': {'current': 3713.37135, 'min': 800.0, 'max': 5820.0}, 'cpu_freq_per_core': [{'current': 3600.0, 'min': 800.0, 'max': 6400.0}, {'current': 3600.0, 'min': 800.0, 'max': 6400.0}, {'current': 4675.861, 'min': 800.0, 'max': 6400.0}, {'current': 3600.0, 'min': 800.0, 'max': 6400.0}, {'current': 3600.0, 'min': 800.0, 'max': 6300.0}, {'current': 3600.0, 'min': 800.0, 'max': 6300.0}, {'current': 4735.501, 'min': 800.0, 'max': 6300.0}, {'current': 3600.0, 'min': 800.0, 'max': 6300.0}, {'current': 4745.853, 'min': 800.0, 'max': 6300.0}, {'current': 3600.0, 'min': 800.0, 'max': 6300.0}, {'current': 3600.0, 'min': 800.0, 'max': 6300.0}, {'current': 3600.0, 'min': 800.0, 'max': 6300.0}, {'current': 3600.0, 'min': 800.0, 'max': 6300.0}, {'current': 3600.0, 'min': 800.0, 'max': 6300.0}, {'current': 3600.0, 'min': 800.0, 'max': 6300.0}, {'current': 3600.0, 'min': 800.0, 'max': 6300.0}, {'current': 3600.0, 'min': 800.0, 'max': 3800.0}, {'current': 3600.0, 'min': 800.0, 'max': 3800.0}, {'current': 3600.0, 'min': 800.0, 'max': 3800.0}, {'current': 3600.0, 'min': 800.0, 'max': 3800.0}], 'disk': {'total': 928.9834289550781, 'used': 121.79352569580078}, 'gpu': 'NVIDIA GeForce RTX 3090 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090 Ti', 'memory_total': 25757220864}], 'memory': {'total': 62.64408874511719}}
+2023-01-08 15:31:16,142 INFO    HandlerThread:356398 [system_monitor.py:probe():181] Finished collecting system info
+2023-01-08 15:31:16,142 INFO    HandlerThread:356398 [system_monitor.py:probe():184] Publishing system info
+2023-01-08 15:31:16,142 DEBUG   HandlerThread:356398 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-01-08 15:31:16,142 DEBUG   HandlerThread:356398 [system_info.py:_save_pip():67] Saving pip packages done
+2023-01-08 15:31:16,142 DEBUG   HandlerThread:356398 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-01-08 15:31:16,995 INFO    Thread-13 :356398 [dir_watcher.py:_on_file_created():275] file/dir created: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_153115-12uk0pzc/files/conda-environment.yaml
+2023-01-08 15:31:16,995 INFO    Thread-13 :356398 [dir_watcher.py:_on_file_created():275] file/dir created: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_153115-12uk0pzc/files/wandb-summary.json
+2023-01-08 15:31:16,995 INFO    Thread-13 :356398 [dir_watcher.py:_on_file_created():275] file/dir created: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_153115-12uk0pzc/files/requirements.txt
+2023-01-08 15:31:18,569 DEBUG   HandlerThread:356398 [system_info.py:_save_conda():86] Saving conda packages done
+2023-01-08 15:31:18,570 INFO    HandlerThread:356398 [system_monitor.py:probe():186] Finished publishing system info
+2023-01-08 15:31:18,591 DEBUG   SenderThread:356398 [sender.py:send():303] send: files
+2023-01-08 15:31:18,591 INFO    SenderThread:356398 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-01-08 15:31:18,995 INFO    Thread-13 :356398 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_153115-12uk0pzc/files/conda-environment.yaml
+2023-01-08 15:31:18,996 INFO    Thread-13 :356398 [dir_watcher.py:_on_file_created():275] file/dir created: /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230108_153115-12uk0pzc/files/wandb-metadata.json
+2023-01-08 15:31:19,195 INFO    Thread-16 :356398 [upload_job.py:push():143] Uploaded file /tmp/tmpn0mhxf04wandb/2gldycan-wandb-metadata.json
+2023-01-08 15:31:35,087 INFO    MainThread:356398 [internal.py:handle_exit():77] Internal process exited

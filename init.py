@@ -1,5 +1,6 @@
 import pandas as pd
 from utils import *
+import torch
 
 project_name = 'A CNN-LSTM framework for the solar wind density forecasting'
 
@@ -17,15 +18,16 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 #architecture hyperparameters
 n_channels = 1
-n_hidden_channels = 32
+
 kernel_size = (3,3)
-n_layers = 1
+n_layers = 2
 batch_first = True
 bias = True
+n_hidden_channels = 8
 
-convNet = {'firstConv': 32,
-            'secondConv': 64,
-            'thirdConv' : 128,
+convNet = {'firstConv': n_hidden_channels,
+            'secondConv': 16,
+            'thirdConv' : 32,
             'kernel': kernel_size,
             'drop': 0.3}
 
@@ -42,7 +44,7 @@ path = './models/'
 shuffle_train = True
 shuffle_val = False
 shuffle_test = False
-batch_size = 2
+batch_size = 4
 
 training_hp = {'lr': 1e-5,
                'wd': 1e-1,
@@ -50,6 +52,13 @@ training_hp = {'lr': 1e-5,
               'History': H+1,
               'Delay': D,
               'Time_resolution': resolution,
-              'epochs': 60}
+              'epochs': 60,
+              'ConvLSTM_drop': 0.1,
+              'batch_size': batch_size,
+              'firstConv': convNet['firstConv'],
+              'secondConv': convNet['secondConv'],
+              'thirdConv' : convNet['thirdConv'],
+              'kernel': kernel_size,
+              'drop': convNet['drop']}
 
 

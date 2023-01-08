@@ -11,7 +11,7 @@ from init import *
 
 class ConvLSTMCell(nn.Module):
 
-    def __init__(self, input_dim, hidden_dim, kernel_size, bias):
+    def __init__(self, input_dim, hidden_dim, kernel_size, bias, p_drop):
         """
         Initialize ConvLSTM cell.
         Parameters
@@ -40,13 +40,14 @@ class ConvLSTMCell(nn.Module):
                               kernel_size=self.kernel_size,
                               padding=self.padding,
                               bias=self.bias)
+        self.drop = nn.Dropout(p_drop)
 
     def forward(self, input_tensor, cur_state):
         h_cur, c_cur = cur_state
 
         combined = torch.cat([input_tensor, h_cur], dim=1)  # concatenate along channel axis
 
-        combined_conv = self.conv(combined)
+        combined_conv = self.drop(self.conv(combined))
         cc_i, cc_f, cc_o, cc_g = torch.split(combined_conv, self.hidden_dim, dim=1)
         i = torch.sigmoid(cc_i)
         f = torch.sigmoid(cc_f)
@@ -91,7 +92,7 @@ class ConvLSTM(nn.Module):
     """
 
     def __init__(self, input_dim, hidden_dim, kernel_size, num_layers,
-                 batch_first=False, bias=True, return_all_layers=False):
+                 batch_first=False, bias=True, return_all_layers=False, p_drop = 0):
         super(ConvLSTM, self).__init__()
 
         self._check_kernel_size_consistency(kernel_size)
@@ -117,7 +118,7 @@ class ConvLSTM(nn.Module):
             cell_list.append(ConvLSTMCell(input_dim=cur_input_dim,
                                           hidden_dim=self.hidden_dim[i],
                                           kernel_size=self.kernel_size[i],
-                                          bias=self.bias))
+                                          bias=self.bias, p_drop = p_drop))
 
         self.cell_list = nn.ModuleList(cell_list)
 
@@ -172,7 +173,7 @@ class ConvLSTM(nn.Module):
             #layer_output_list = layer_output_list[-1:]
             last_state_list = last_state_list[-1:]
 
-        return last_state_list[0][0]  # get the value
+        return last_state_list  # get the value
 
     def _init_hidden(self, batch_size, image_size):
         init_states = []
@@ -203,8 +204,10 @@ class PredictionModule(nn.Module):
         self.pool2d = nn.MaxPool2d(convNet['kernel'])
         self.drop = nn.Dropout(convNet['drop'])
         self.flatten = Flatten()        
-        self.FC1 = nn.Linear(73728, 1024)
+        self.FC1 = nn.Linear(18432, 1024)   # , 73728
         self.FC2 = nn.Linear(1024, 2)
+        # self.FC3 = nn.Linear(64, 2)
+
 
 
     def forward(self, x):
@@ -217,6 +220,8 @@ class PredictionModule(nn.Module):
         x = F.relu(self.FC1(x))
         
         x = self.FC2(x)
+
+        # x = self.FC3(x)
         
         return x
 
@@ -233,10 +238,10 @@ class Flatten(nn.Module):
 class HeliosNet(nn.Module):
 
     def __init__(self, input_dim, hidden_dim, kernel_size, num_layers,
-                 batch_first=False, bias=True, return_all_layers=False):
+                 batch_first=False, bias=True, return_all_layers=False, p_drop = 0):
         super(HeliosNet, self).__init__()
         self.ConvLSTM = ConvLSTM(input_dim, hidden_dim, kernel_size, num_layers,
-                                    batch_first=batch_first, bias=bias, return_all_layers=return_all_layers)
+                                    batch_first=batch_first, bias=bias, return_all_layers=return_all_layers, p_drop = p_drop)
 
         self.DensityPredictor = PredictionModule()
 
@@ -244,6 +249,6 @@ class HeliosNet(nn.Module):
 
         encoded_input = self.ConvLSTM(input)
         
-        decoded_input = self.DensityPredictor(encoded_input)
+        decoded_input = self.DensityPredictor(encoded_input[0][0])
 
         return decoded_input

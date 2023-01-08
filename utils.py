@@ -83,10 +83,10 @@ def collate(batch):
     '''
     tensor = torch.zeros((len(batch), H+1, 1, 224, 224))
     density = torch.zeros((len(batch), 2)) # Proton and Electron Density tensor
-
+    d = 0
 
     for sample in batch:
-        d = 0
+        
 
         requested_images = get_history_images(sample[0], H, D, resolution) # sample[0] corrensponds to the date of the solar wind prediction date.
 
@@ -101,7 +101,6 @@ def collate(batch):
         
         tensor[d] = mid_tensor
         density[d] = density_pair
-
         d += 1
         
     
