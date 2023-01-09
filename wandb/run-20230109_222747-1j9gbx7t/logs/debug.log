@@ -1,0 +1,154 @@
+2023-01-09 22:27:47,711 INFO    MainThread:511492 [wandb_setup.py:_flush():68] Configure stats pid to 511492
+2023-01-09 22:27:47,711 INFO    MainThread:511492 [wandb_setup.py:_flush():68] Loading settings from /home/peppe/.config/wandb/settings
+2023-01-09 22:27:47,711 INFO    MainThread:511492 [wandb_setup.py:_flush():68] Loading settings from /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/settings
+2023-01-09 22:27:47,711 INFO    MainThread:511492 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-01-09 22:27:47,711 INFO    MainThread:511492 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-01-09 22:27:47,711 INFO    MainThread:511492 [wandb_init.py:_log_setup():476] Logging user logs to /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230109_222747-1j9gbx7t/logs/debug.log
+2023-01-09 22:27:47,711 INFO    MainThread:511492 [wandb_init.py:_log_setup():477] Logging internal logs to /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230109_222747-1j9gbx7t/logs/debug-internal.log
+2023-01-09 22:27:47,711 INFO    MainThread:511492 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f93c0416f20>
+2023-01-09 22:27:47,711 INFO    MainThread:511492 [wandb_init.py:init():516] calling init triggers
+2023-01-09 22:27:47,712 INFO    MainThread:511492 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'lr': 1e-05, 'wd': 0.1, 'Scheduler': 'NO', 'History': 5, 'Delay': 2, 'Time_resolution': Timedelta('1 days 00:00:00'), 'epochs': 50, 'ConvLSTM_drop': 0.5, 'batch_size': 4, 'firstConv': 1, 'secondConv': 8, 'thirdConv': 16, 'kernel': (3, 3), 'drop': 0.3, 'lastConv': 32, 'hidden': 2048, 'hidden_output': 256, 'LSTM_output': 256, 'n_layers_LSTM': 5}
+2023-01-09 22:27:47,712 INFO    MainThread:511492 [wandb_init.py:init():569] starting backend
+2023-01-09 22:27:47,712 INFO    MainThread:511492 [wandb_init.py:init():573] setting up manager
+2023-01-09 22:27:47,714 INFO    MainThread:511492 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-01-09 22:27:47,716 INFO    MainThread:511492 [wandb_init.py:init():580] backend started and connected
+2023-01-09 22:27:47,723 INFO    MainThread:511492 [wandb_run.py:_label_probe_notebook():1116] probe notebook
+2023-01-09 22:27:47,723 INFO    MainThread:511492 [wandb_run.py:_label_probe_notebook():1126] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-01-09 22:27:47,723 INFO    MainThread:511492 [wandb_init.py:init():658] updated telemetry
+2023-01-09 22:27:47,728 INFO    MainThread:511492 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-01-09 22:28:47,769 ERROR   MainThread:511492 [wandb_init.py:init():704] backend process timed out
+2023-01-09 22:28:47,769 ERROR   MainThread:511492 [wandb_init.py:init():713] encountered error: Error communicating with wandb process
+For more info see: https://docs.wandb.ai/library/init#init-start-error
+2023-01-09 22:29:05,498 INFO    MainThread:511492 [wandb_setup.py:_flush():68] Configure stats pid to 511492
+2023-01-09 22:29:05,498 INFO    MainThread:511492 [wandb_setup.py:_flush():68] Loading settings from /home/peppe/.config/wandb/settings
+2023-01-09 22:29:05,498 INFO    MainThread:511492 [wandb_setup.py:_flush():68] Loading settings from /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/settings
+2023-01-09 22:29:05,498 INFO    MainThread:511492 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-01-09 22:29:05,498 INFO    MainThread:511492 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-01-09 22:29:05,498 INFO    MainThread:511492 [wandb_init.py:_log_setup():476] Logging user logs to /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230109_222905-2qsc72vr/logs/debug.log
+2023-01-09 22:29:05,498 INFO    MainThread:511492 [wandb_init.py:_log_setup():477] Logging internal logs to /home/peppe/Desktop/Università/Projects/Solar_wind_density_forecasting/wandb/run-20230109_222905-2qsc72vr/logs/debug-internal.log
+2023-01-09 22:29:05,498 INFO    MainThread:511492 [wandb_init.py:init():516] calling init triggers
+2023-01-09 22:29:05,498 INFO    MainThread:511492 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'lr': 1e-05, 'wd': 0.1, 'Scheduler': 'NO', 'History': 5, 'Delay': 2, 'Time_resolution': Timedelta('1 days 00:00:00'), 'epochs': 50, 'ConvLSTM_drop': 0.5, 'batch_size': 4, 'firstConv': 1, 'secondConv': 8, 'thirdConv': 16, 'kernel': (3, 3), 'drop': 0.3, 'lastConv': 32, 'hidden': 2048, 'hidden_output': 256, 'LSTM_output': 256, 'n_layers_LSTM': 5}
+2023-01-09 22:29:05,498 INFO    MainThread:511492 [wandb_init.py:init():569] starting backend
+2023-01-09 22:29:05,498 INFO    MainThread:511492 [wandb_init.py:init():573] setting up manager
+2023-01-09 22:29:05,500 INFO    MainThread:511492 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-01-09 22:29:05,502 INFO    MainThread:511492 [wandb_init.py:init():580] backend started and connected
+2023-01-09 22:29:05,511 INFO    MainThread:511492 [wandb_run.py:_label_probe_notebook():1116] probe notebook
+2023-01-09 22:29:05,511 INFO    MainThread:511492 [wandb_run.py:_label_probe_notebook():1126] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-01-09 22:29:05,511 INFO    MainThread:511492 [wandb_init.py:init():658] updated telemetry
+2023-01-09 22:29:05,514 INFO    MainThread:511492 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-01-09 22:29:06,835 INFO    MainThread:511492 [wandb_run.py:_on_init():2006] communicating current version
+2023-01-09 22:29:06,940 INFO    MainThread:511492 [wandb_run.py:_on_init():2010] got version response 
+2023-01-09 22:29:06,940 INFO    MainThread:511492 [wandb_init.py:init():728] starting run threads in backend
+2023-01-09 22:29:09,430 INFO    MainThread:511492 [wandb_run.py:_console_start():1986] atexit reg
+2023-01-09 22:29:09,430 INFO    MainThread:511492 [wandb_run.py:_redirect():1844] redirect: SettingsConsole.WRAP_RAW
+2023-01-09 22:29:09,431 INFO    MainThread:511492 [wandb_run.py:_redirect():1909] Wrapping output streams.
+2023-01-09 22:29:09,431 INFO    MainThread:511492 [wandb_run.py:_redirect():1931] Redirects installed.
+2023-01-09 22:29:09,431 INFO    MainThread:511492 [wandb_init.py:init():765] run started, returning control to user process
+2023-01-09 22:29:09,668 WARNING MsgRouterThr:511492 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid b6a152f0aa054c08b8c4c38b626fa0ba (control {
+  req_resp: true
+  local: true
+  relay_id: "f5baa3b910d1405c8723cd4cc86b3d64"
+}
+uuid: "b6a152f0aa054c08b8c4c38b626fa0ba"
+)
+2023-01-09 22:29:24,828 WARNING MsgRouterThr:511492 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 3e2e62bb5830459899c28e38b778f01d (control {
+  req_resp: true
+  local: true
+  relay_id: "f5baa3b910d1405c8723cd4cc86b3d64"
+}
+uuid: "3e2e62bb5830459899c28e38b778f01d"
+response {
+  stop_status_response {
+  }
+}
+)
+2023-01-09 22:29:34,444 WARNING MsgRouterThr:511492 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 32d8c47616ac4a30876139fa23b907dd (control {
+  req_resp: true
+  local: true
+  relay_id: "f5baa3b910d1405c8723cd4cc86b3d64"
+}
+uuid: "32d8c47616ac4a30876139fa23b907dd"
+)
+2023-01-09 22:29:34,444 WARNING MsgRouterThr:511492 [router.py:message_loop():77] message_loop has been closed
+2023-01-09 22:29:44,448 WARNING MsgRouterThr:511492 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 26bb952ad3f54f4db7c4f83669a96581 (control {
+  req_resp: true
+  local: true
+  relay_id: "f5baa3b910d1405c8723cd4cc86b3d64"
+}
+uuid: "26bb952ad3f54f4db7c4f83669a96581"
+)
+2023-01-09 22:29:44,816 WARNING MsgRouterThr:511492 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 345306af17b44e3e8c38c8f20bd11e7a (control {
+  req_resp: true
+  local: true
+  relay_id: "f5baa3b910d1405c8723cd4cc86b3d64"
+}
+uuid: "345306af17b44e3e8c38c8f20bd11e7a"
+response {
+  stop_status_response {
+  }
+}
+)
+2023-01-09 22:29:54,449 WARNING MsgRouterThr:511492 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 2fed60cdbb80483b8bfaa02a5a0b12b3 (control {
+  req_resp: true
+  local: true
+  relay_id: "f5baa3b910d1405c8723cd4cc86b3d64"
+}
+uuid: "2fed60cdbb80483b8bfaa02a5a0b12b3"
+)
+2023-01-09 22:30:04,452 WARNING MsgRouterThr:511492 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid b657d031b929459c8cf134e76948d0a6 (control {
+  req_resp: true
+  local: true
+  relay_id: "f5baa3b910d1405c8723cd4cc86b3d64"
+}
+uuid: "b657d031b929459c8cf134e76948d0a6"
+)
+2023-01-09 22:30:04,820 WARNING MsgRouterThr:511492 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 3696124267fb4a498e85512f78fc93a0 (control {
+  req_resp: true
+  local: true
+  relay_id: "f5baa3b910d1405c8723cd4cc86b3d64"
+}
+uuid: "3696124267fb4a498e85512f78fc93a0"
+response {
+  stop_status_response {
+  }
+}
+)
+2023-01-09 22:30:14,452 WARNING MsgRouterThr:511492 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 8cddff9347e244e5852e1a62c9c62434 (control {
+  req_resp: true
+  local: true
+  relay_id: "f5baa3b910d1405c8723cd4cc86b3d64"
+}
+uuid: "8cddff9347e244e5852e1a62c9c62434"
+)
+2023-01-09 22:30:24,453 WARNING MsgRouterThr:511492 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid bff9a2642d3a42bbb098b536088e7605 (control {
+  req_resp: true
+  local: true
+  relay_id: "f5baa3b910d1405c8723cd4cc86b3d64"
+}
+uuid: "bff9a2642d3a42bbb098b536088e7605"
+)
+2023-01-09 22:30:24,829 WARNING MsgRouterThr:511492 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 6fac01fd978e4ca7bf8b455a410779cd (control {
+  req_resp: true
+  local: true
+  relay_id: "f5baa3b910d1405c8723cd4cc86b3d64"
+}
+uuid: "6fac01fd978e4ca7bf8b455a410779cd"
+response {
+  stop_status_response {
+  }
+}
+)
+2023-01-09 22:30:34,484 WARNING MsgRouterThr:511492 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 928df7881e094fa9a5af721ff48f6031 (control {
+  req_resp: true
+  local: true
+  relay_id: "f5baa3b910d1405c8723cd4cc86b3d64"
+}
+uuid: "928df7881e094fa9a5af721ff48f6031"
+)
+2023-01-09 22:30:44,410 INFO    MainThread:511492 [wandb_run.py:_finish():1753] finishing run small_sunbirds/A CNN-LSTM framework for the solar wind density forecasting/2qsc72vr
+2023-01-09 22:30:44,411 INFO    MainThread:511492 [wandb_run.py:_atexit_cleanup():1955] got exitcode: 0
+2023-01-09 22:30:44,411 INFO    MainThread:511492 [wandb_run.py:_restore():1938] restore
+2023-01-09 22:30:44,411 INFO    MainThread:511492 [wandb_run.py:_restore():1944] restore done
+2023-01-09 22:33:31,246 WARNING MsgRouterThr:511492 [router.py:message_loop():77] message_loop has been closed
