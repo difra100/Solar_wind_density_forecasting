@@ -9,7 +9,7 @@ wb = True
 H = 4  # day
 D = 2  # day
 
-resolution = pd.Timedelta(1, 'd')
+resolution = pd.Timedelta(12, 'H')
 
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -36,11 +36,11 @@ CNN_LSTM = {'firstConv': 1,
             'secondConv': 8,
             'thirdConv': 16,
             'lastConv': 32,
-            'hidden': 2048,
+            'hidden': 18432,
             'hidden_output': 256,
             'LSTM_output': 768,
-            'n_layers_LSTM': 5,
-            'drop': 0.4}
+            'n_layers_LSTM': 1,
+            'drop': 0.7}
 
 
 # Training hyperparameters
@@ -75,8 +75,8 @@ training_hp2 = {'lr': 1e-5,
               'History': H+1,
               'Delay': D,
               'Time_resolution': resolution,
-              'epochs': 100,
-              'ConvLSTM_drop': 0.5,
+              'epochs': 30,
+              'ConvLSTM_drop': 0.6,
               'batch_size': batch_size,
               'firstConv': CNN_LSTM['firstConv'],
               'secondConv': CNN_LSTM['secondConv'],

@@ -173,7 +173,7 @@ class ConvLSTM(nn.Module):
             layer_output_list = layer_output_list[-1:]
             last_state_list = last_state_list[-1:]
 
-        return last_state_list  # get the value
+        return last_state_list, layer_output_list  # get the value
 
     def _init_hidden(self, batch_size, image_size):
         init_states = []
@@ -204,7 +204,7 @@ class PredictionModule(nn.Module):
         self.pool2d = nn.MaxPool2d(convNet['kernel'])
         self.drop = nn.Dropout(convNet['drop'])
         self.flatten = Flatten()        
-        self.FC1 = nn.Linear(2048, 1024)   # , 73728
+        self.FC1 = nn.Linear(18432, 1024)   # , 73728
         self.FC2 = nn.Linear(1024, 2)
         # self.FC3 = nn.Linear(64, 2)
 

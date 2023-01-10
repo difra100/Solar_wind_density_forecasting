@@ -1,0 +1,1 @@
+{"Loss on train": 13.177358627319336, "Loss on test": 11.02546215057373, "Electron Density correlation (R)": 0.2726319432258606, "Proton Density correlation (R)": 0.23915468156337738, "epoch": 99, "trainer/global_step": 3899, "_timestamp": 1673368639.614087, "_runtime": 294.1831510066986, "_step": 99, "_wandb": {"runtime": 293}}

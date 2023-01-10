@@ -21,6 +21,7 @@ def load_data(name):
     jfile = open(name, "r")
     dicti = json.load(jfile)
     return dicti
+
 def save_model(checkpoint, path):
   # This function saves a pytorch model.
     torch.save(checkpoint, path)
@@ -72,7 +73,7 @@ class DataSet(Dataset):
         return self.dataset.iloc[idx, 0], self.dataset.iloc[idx, 1], self.dataset.iloc[idx, 2]
 
 
-sun_dataset = load_data('./datasets/ARI_image_dataset.json')
+sun_dataset = load_data('./datasets/ARI_image_dataset0.5d.json')
 
 
 def collate(batch):
@@ -81,7 +82,9 @@ def collate(batch):
         INPUT: batch: batch_sizex(timestamp, proton_density, electron_density),
         OUTPUT: tensor: batch_size x time_steps x image_channels x image_height x image_width,  batch_size x proton_density x electron_density
     '''
-    tensor = torch.zeros((len(batch), H+1, 1, 224, 224))
+    timesteps_length = len(get_history_images(batch[0][0], H, D, resolution))
+
+    tensor = torch.zeros((len(batch), timesteps_length, 1, 224, 224))
     density = torch.zeros((len(batch), 2)) # Proton and Electron Density tensor
     d = 0
 
@@ -89,7 +92,7 @@ def collate(batch):
         
 
         requested_images = get_history_images(sample[0], H, D, resolution) # sample[0] corrensponds to the date of the solar wind prediction date.
-
+      
         mid_tensor = torch.zeros((len(requested_images), 1, 224, 224))
         density_pair = torch.tensor([sample[1], sample[2]])
 
@@ -101,7 +104,11 @@ def collate(batch):
         
         tensor[d] = mid_tensor
         density[d] = density_pair
+        
         d += 1
+    non_empty_mask = density.abs().sum(dim=1).bool()
+    density = density[non_empty_mask]
+    tensor = tensor[non_empty_mask]
         
     
     return tensor, density

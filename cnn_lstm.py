@@ -21,7 +21,7 @@ class CNN_feature_extractor(nn.Module):
 
     def forward(self, x):
 
-        x = self.drop(self.pool(F.relu(self.conv1(x))))
+        x = self.drop(F.relu(self.conv1(x)))
         x = self.drop(self.pool(F.relu(self.conv2(x))))
         x = self.pool(F.relu(self.conv3(x)))
 
