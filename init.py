@@ -37,8 +37,8 @@ CNN_LSTM = {'firstConv': 1,
             'thirdConv': 16,
             'lastConv': 32,
             'hidden': 2048,
-            'hidden_output': 128,
-            'LSTM_output': 1024,
+            'hidden_output': 256,
+            'LSTM_output': 768,
             'n_layers_LSTM': 5,
             'drop': 0.4}
 
